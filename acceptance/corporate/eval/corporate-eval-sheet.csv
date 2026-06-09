@@ -1,0 +1,9 @@
+eval_id,plugin,skill,sample_case,evaluator,date,dimension,score,major_issue_found,missed_issue,false_positive,source_traceable,attorney_review_required,comments
+COR-E2E-001,cn-corporate-legal,diligence-tabular-review,星河智能设备投资项目,虚构验收律师B,2026-06-09,资料摘要准确性,4,true,false,false,true,true,能抓住重点文件但可覆盖更多普通文件
+COR-E2E-002,cn-corporate-legal,issue-extraction,星河智能设备投资项目,虚构验收律师B,2026-06-09,问题提取完整性,5,true,false,false,true,true,覆盖股权、合同、资质、劳动、税务、争议、处罚、数据
+COR-E2E-003,cn-corporate-legal,issue-extraction,星河智能设备投资项目,虚构验收律师B,2026-06-09,重大性判断,4,true,false,false,true,true,重大性合理但估值影响可更细
+COR-E2E-004,cn-corporate-legal,issue-extraction,星河智能设备投资项目,虚构验收律师B,2026-06-09,红旗风险识别,5,true,false,false,true,true,关联方担保被识别为红旗
+COR-E2E-005,cn-corporate-legal,closing-checklist,星河智能设备投资项目,虚构验收律师B,2026-06-09,交割条件完整性,5,true,false,false,true,true,清晰区分交割前、交割日、交割后
+COR-E2E-006,cn-corporate-legal,disclosure-schedule,星河智能设备投资项目,虚构验收律师B,2026-06-09,披露清单可用性,5,true,false,false,true,true,列明待补材料和律师核验点
+COR-E2E-007,cn-corporate-legal,issue-extraction,星河智能设备投资项目,虚构验收律师B,2026-06-09,待追问问题质量,4,true,false,false,true,true,追问方向可执行
+COR-E2E-008,cn-corporate-legal,disclosure-schedule,星河智能设备投资项目,虚构验收律师B,2026-06-09,输出可编辑性,5,true,false,false,true,true,表格便于律师继续编辑

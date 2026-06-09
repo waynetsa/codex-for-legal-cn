@@ -63,3 +63,14 @@
 ## 重要提醒
 
 不能把 AI 输出准确率当作律师结论准确率。AI 评测只说明工作流在样本上的辅助质量，任何正式法律判断仍必须由合格法律专业人士作出。
+
+## 如何读取 acceptance 评测结果
+
+`acceptance/` 目录中的评测结果用于判断 `v0.1.0-alpha` 是否达到可试用基线：
+
+- `acceptance/*/eval/*-eval-sheet.csv` 记录逐项评分。
+- `acceptance/*/eval/*-findings.md` 记录通过项、失败项和改进建议。
+- `acceptance/summary/e2e-summary.md` 给出总体结论。
+- `acceptance/summary/improvement-backlog.md` 是下一轮修复 PR 的输入。
+
+评测得分低于 3 分的维度必须进入 backlog。不能把 AI 输出准确率当作律师结论准确率。

@@ -1,0 +1,9 @@
+eval_id,plugin,skill,sample_case,evaluator,date,dimension,score,major_issue_found,missed_issue,false_positive,source_traceable,attorney_review_required,comments
+COM-E2E-001,cn-commercial-legal,contract-review,云帆科技服务合同,虚构验收律师A,2026-06-09,合同基本信息识别,5,true,false,false,true,true,准确识别甲乙方、我方身份和合同类型
+COM-E2E-002,cn-commercial-legal,contract-review,云帆科技服务合同,虚构验收律师A,2026-06-09,高风险识别,5,true,false,false,true,true,责任上限异常被识别并升级
+COM-E2E-003,cn-commercial-legal,contract-review,云帆科技服务合同,虚构验收律师A,2026-06-09,红旗风险识别,5,true,false,false,true,true,数据处理缺失被标为红旗
+COM-E2E-004,cn-commercial-legal,deviation-memo,云帆科技服务合同,虚构验收律师A,2026-06-09,偏离清单可用性,4,true,false,false,true,true,表格可直接进入谈判清单
+COM-E2E-005,cn-commercial-legal,renewal-risk-check,云帆科技服务合同,虚构验收律师A,2026-06-09,续约解除风险,5,true,false,false,true,true,通知期、解除和数据迁移均单独列出
+COM-E2E-006,cn-commercial-legal,contract-review,云帆科技服务合同,虚构验收律师A,2026-06-09,升级事项,5,true,false,false,true,true,红旗和高风险均触发升级
+COM-E2E-007,cn-commercial-legal,contract-review,云帆科技服务合同,虚构验收律师A,2026-06-09,输出可编辑性,4,true,false,false,true,true,建议可编辑但替代表述仍可更细
+COM-E2E-008,cn-commercial-legal,contract-review,云帆科技服务合同,虚构验收律师A,2026-06-09,来源核验提示,5,true,false,false,true,true,法律依据均写待律师核验

@@ -57,3 +57,13 @@ python scripts/validate_no_private_materials.py
 4. 禁止跨客户检索。
 5. 写回、发送、签署、提交动作必须人工确认。
 6. 真实 API 地址、token、Cookie 和本地密钥不得提交到 GitHub。
+
+## 使用虚构样例试跑三个插件
+
+可以使用 `acceptance/` 中的虚构材料做端到端试跑：
+
+1. 合同审查：读取 `acceptance/commercial/input/`，对照 `acceptance/commercial/output/`。
+2. 并购尽调：读取 `acceptance/corporate/input/`，对照 `acceptance/corporate/output/`。
+3. 诉讼案件：读取 `acceptance/litigation/input/`，对照 `acceptance/litigation/output/`。
+
+试跑后填写对应 `eval/*-eval-sheet.csv`，并把问题写入 `acceptance/summary/improvement-backlog.md`。不要使用真实客户资料替换这些样例。
