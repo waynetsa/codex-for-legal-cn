@@ -2,24 +2,30 @@
 
 仓库地址：https://github.com/waynetsa/codex-for-legal-cn
 
-## 第一阶段：仓库骨架
+## 已完成
 
-- 建立三个核心插件目录。
-- 建立 skill 骨架、practice profile、templates、references、guardrails 和 evals。
-- 增加基础文档和验证脚本。
+- 三个核心插件：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`。
+- cold-start interview 与 practice profile 模板。
+- 合同、并购、诉讼核心 templates、references 和虚构 examples。
+- 共享 guardrails：律师复核、保密、个人信息、来源引用和免责声明。
+- 共享 evals：评测规则、样例评测表和插件评测说明。
+- GitHub Actions 自动验证。
+- MCP connector placeholders。
 
-## 第二阶段：核心能力补全
+## 下一阶段规划
 
-- 完善商事合同审查、NDA 初筛、偏离清单和续约风险检查。
-- 完善公司与并购尽调台账、披露清单和交割清单。
-- 完善诉讼 intake、事实时间线、证据目录、争点表和开庭准备。
+- `cn-privacy-legal`：隐私与个人信息保护工作流。
+- `cn-ai-governance-legal`：AI 治理、算法和模型合规工作流。
+- `cn-employment-legal`：劳动用工工作流。
+- `cn-regulatory-legal`：监管合规和监管监测工作流。
+- `cn-ip-legal`：知识产权工作流。
+- 私有化部署指引。
+- 真实 MCP 连接器样例。
+- 律所内部评测看板。
 
-## 第三阶段：评测与样例
+## 长期方向
 
-- 增加虚构合同、虚构资料室和虚构诉讼案件。
-- 建立遗漏率、准确率、可用性和律师复核耗时评测口径。
-
-## 第四阶段：连接器与管理能力
-
-- 补充本地文档库、知识库、表格、项目管理和权限管理的连接器说明。
-- 增加律所级模板版本管理和审批流建议。
+- 更细颗粒度的 practice profile 版本管理。
+- 脱敏评测集和回归评测流程。
+- 权限审批、审计日志和连接器安全基线。
+- 面向法律教育和律所知识管理的教程。

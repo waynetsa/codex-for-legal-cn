@@ -1,25 +1,45 @@
-# 管理员使用指南
+# Usage for Admins
 
-本文面向律所知识管理、IT 和合规负责人。
+本指南面向律所知识管理、IT、风控、合规和法律科技负责人。
 
-## 插件和模板管理
+## 模板版本管理
 
-三个核心插件分别位于 `plugins/cn-commercial-legal`、`plugins/cn-corporate-legal`、`plugins/cn-litigation-legal`。律所可以把内部模板的脱敏版本放入各插件 `templates/`，把检查清单放入 `references/`，把合伙人口径写入本地 `practice-profile.md`。
+- 将公开仓库模板作为基础版本。
+- 律所内部模板应放在私有仓库或受控文档库中。
+- 每次更新模板时记录版本、负责人、适用团队、变更原因和复核人。
+- 不要把真实客户模板、收费模板或第三方专有模板提交到公开仓库。
 
-`practice-profile.md` 已被 `.gitignore` 忽略，适合放本地或内部私有仓库；公开仓库只保留 `practice-profile.template.md`。
+## 权限审批
 
-## 权限和资料边界
+- 明确谁可以使用插件、读取材料、创建本地 practice profile。
+- 对客户材料、案件材料、交易资料和证据设置事项级权限。
+- 对任何写回、发送、签署、提交机构的动作设置人工确认。
+- 使用 `shared/templates/escalation-matrix.md` 作为最低升级基线。
 
-建议至少区分：模板维护人、技能使用人、复核律师、合规管理员。公开仓库不得保存真实客户资料、真实案件材料、证据原文、交易价格、商业秘密、个人信息、密钥或内部系统配置。
+## 脱敏评测集
 
-## 版本更新
+- 由负责律师选择适合复盘的历史事项。
+- 由知识管理或法律科技团队脱敏。
+- 由风控或合规负责人确认可用于内部评测。
+- 使用 `shared/evals/sample-eval-sheet.csv` 记录评分、误报、漏报和整改事项。
 
-每次修改 skill、template、reference 或 profile 时，应记录版本、修改人、复核人和变更原因。涉及输出口径变化的修改，建议先用脱敏历史项目评测，再对团队发布。
+## GitHub Actions
 
-## 评测和验收
+本仓库的 `.github/workflows/validate.yml` 会在 push 和 pull request 时运行：
 
-管理员可以维护脱敏评测包，覆盖合同审查遗漏率、尽调问题提取准确率、诉讼事实时间线完整性、格式可用性和律师复核耗时。评测结果只用于改进流程，不应写入真实客户信息。
+- `validate_structure.py`
+- `validate_skill_metadata.py`
+- `validate_plugin_manifests.py`
+- `validate_no_private_materials.py`
 
-## 哪些输出必须复核
+管理员应检查 PR 页面中的 Actions 状态。失败时先修复结构、元数据、manifest 或疑似敏感材料问题，再合并。
 
-合同修改建议、NDA 放行结论、并购红旗风险、交割条件、披露清单、诉讼请求、证据取舍、庭前提纲、案件周报和任何对外文件都必须经过律师复核。
+## MCP 连接器规划
+
+真实 MCP 连接器只应在私有部署中启用。接入前需确认：
+
+- 客户授权和事项范围。
+- 最小权限和只读优先。
+- 审计日志、撤销授权和访问隔离。
+- 是否涉及个人信息、商业秘密、跨境传输或第三方处理。
+- 写回动作的人工确认人和审批流程。

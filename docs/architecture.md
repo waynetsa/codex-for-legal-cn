@@ -1,6 +1,10 @@
 # Architecture
 
-Codex for Legal CN 将法律工作拆成可组合的插件、技能、模板、参考材料、评测和安全规则。
+Codex for Legal CN 将中国法律工作流拆成可组合的插件、技能、团队口径、模板、参考资料、安全规则、评测和可选连接器。
+
+```text
+plugin -> skill -> practice profile -> templates/references -> guardrails -> evals -> optional connectors
+```
 
 ## Plugin
 
@@ -8,28 +12,24 @@ Plugin 是一个执业领域或业务场景包。每个插件包含 `.codex-plug
 
 ## Skill
 
-Skill 是一个可执行工作流说明，例如合同审查、NDA 初筛、尽调问题提取或案件时间线。每个 `SKILL.md` 都包含 frontmatter、输入要求、处理步骤、输出格式、质量检查和律师复核闸门。
+Skill 是可执行工作流说明，例如合同审查、NDA 初筛、尽调问题提取或案件时间线。每个 `SKILL.md` 都包含输入要求、处理步骤、输出格式、质量检查、保密提示和律师复核闸门。
 
 ## Practice Profile
 
-Practice profile 记录团队或项目的风险口径、常用模板、审批层级、客户行业和输出偏好。它不是法律结论，而是让 Codex 生成更贴近团队习惯的工作底稿。
+Practice profile 记录团队或项目的风险口径、审批层级、客户行业、输出偏好和禁止事项。它不是法律结论，而是让 Codex 生成更贴近团队习惯的工作底稿。
 
-## Template
+## Templates and References
 
-Template 是输出结构，例如审查备忘录、偏离清单、尽调问题台账、证据目录和案件周报。模板必须是虚构或通用结构，不得包含真实客户信息。
+Templates 提供输出结构。References 提供检查清单、术语和流程说明。二者都不得包含真实客户资料或第三方专有模板。
 
-## Reference
+## Guardrails
 
-Reference 是检查清单、术语说明和流程说明。涉及法律依据时，应提供可核验来源；无来源时写“待律师补充法律依据”。
+Guardrails 是跨插件共用的安全规则，包括律师复核、保密、个人信息处理、来源引用和免责声明。所有 skill 都必须遵守这些规则。
 
-## Eval
+## Evals
 
-Eval 用于评估 skill 输出是否可靠，包括遗漏率、准确率、格式可用性、律师复核耗时和升级判断一致性。
+Evals 用于评估输出是否可被律师继续使用，包括遗漏率、误报、来源可追踪性、升级判断和律师复核耗时。
 
-## Guardrail
+## Optional Connectors
 
-Guardrail 是跨插件共用的安全规则，包括律师复核、保密、个人信息处理、来源引用和免责声明。
-
-## Connector
-
-Connector 是未来接入文档库、知识库、项目管理、表格和权限系统的接口说明。第一阶段只保留架构位置和文档原则，不接入真实系统。
+Connectors 是未来私有部署中的 MCP 接入层，负责在授权范围内读取或写入文档系统、合同系统、案件系统、法研数据库、资料室或协作工具。本公开仓库只提供占位文档和模板，不包含真实连接器、真实 API 地址或密钥。
