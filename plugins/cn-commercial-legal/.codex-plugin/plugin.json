@@ -1,0 +1,24 @@
+{
+  "name": "cn-commercial-legal",
+  "version": "0.1.0",
+  "description": "Codex plugin for China commercial legal workflows, including contract review, NDA triage, deviation memos, and renewal risk checks.",
+  "author": "waynetsa",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/waynetsa/codex-for-legal-cn",
+  "keywords": ["codex", "legal", "china", "commercial", "contracts"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CN Commercial Legal",
+    "shortDescription": "中国商事合同法律工作流。",
+    "longDescription": "面向中国律师事务所和公司法务的合同审查、NDA 初筛、供应商合同、销售合同、采购合同、偏离清单和续约风险检查工作流。",
+    "category": "legal",
+    "capabilities": [
+      "cold-start interview",
+      "contract review memo",
+      "NDA triage",
+      "deviation log",
+      "renewal and termination risk check"
+    ],
+    "defaultPrompt": "请先运行 cold-start-interview，确认事项背景、适用法域、客户角色、合同类型、输出用途和律师复核要求。所有输出标注“律师审阅用草稿”。"
+  }
+}

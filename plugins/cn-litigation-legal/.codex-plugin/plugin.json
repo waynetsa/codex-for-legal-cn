@@ -1,0 +1,26 @@
+{
+  "name": "cn-litigation-legal",
+  "version": "0.1.0",
+  "description": "Codex plugin for China litigation and dispute resolution workflows, including matter intake, chronology, evidence index, issue chart, hearing prep, and matter status.",
+  "author": "waynetsa",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/waynetsa/codex-for-legal-cn",
+  "keywords": ["codex", "legal", "china", "litigation", "disputes"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CN Litigation Legal",
+    "shortDescription": "中国诉讼与争议解决法律工作流。",
+    "longDescription": "面向中国诉讼与争议解决项目的案件 intake、事实时间线、证据目录、争点表、诉讼策略备忘录、保全清单、开庭准备提纲、文书初稿结构和案件周报工作流。",
+    "category": "legal",
+    "capabilities": [
+      "cold-start interview",
+      "matter intake",
+      "chronology builder",
+      "evidence index",
+      "issue chart",
+      "hearing prep",
+      "matter status"
+    ],
+    "defaultPrompt": "请先运行 cold-start-interview，确认案件类型、程序阶段、法域假设、事实材料范围、输出用途和律师复核要求。所有输出标注“律师审阅用草稿”。"
+  }
+}

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and local config
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local working profiles and confidential drafts
+**/practice-profile.md
+**/local/
+**/private/
+**/confidential/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/

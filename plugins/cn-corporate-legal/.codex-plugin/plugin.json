@@ -1,0 +1,24 @@
+{
+  "name": "cn-corporate-legal",
+  "version": "0.1.0",
+  "description": "Codex plugin for China corporate and M&A legal workflows, including diligence review, issue extraction, closing checklists, and disclosure schedules.",
+  "author": "waynetsa",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/waynetsa/codex-for-legal-cn",
+  "keywords": ["codex", "legal", "china", "corporate", "mna", "diligence"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CN Corporate Legal",
+    "shortDescription": "中国公司与并购法律工作流。",
+    "longDescription": "面向中国公司与并购项目的尽调资料室审阅、重大合同清单、披露清单、交割清单、股权结构、公司治理、资质许可、诉讼仲裁、行政处罚、税务和劳动风险初筛工作流。",
+    "category": "legal",
+    "capabilities": [
+      "cold-start interview",
+      "diligence tabular review",
+      "issue extraction",
+      "closing checklist",
+      "disclosure schedule"
+    ],
+    "defaultPrompt": "请先运行 cold-start-interview，确认项目类型、交易阶段、法域假设、资料室范围、输出格式和律师复核要求。所有输出标注“律师审阅用草稿”。"
+  }
+}
