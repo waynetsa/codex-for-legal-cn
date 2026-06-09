@@ -1,1 +1,7 @@
-case_id,plugin,skill,metric,score,reviewer_notes
+eval_id,plugin,skill,sample_case,evaluator,date,dimension,score,major_issue_found,missed_issue,false_positive,source_traceable,attorney_review_required,comments
+EVAL-COM-001,cn-commercial-legal,contract-review,虚构云帆科技服务合同,虚构评测律师A,2026-06-09,重大风险识别,4,true,false,false,true,true,识别了责任上限和自动续约风险
+EVAL-COM-002,cn-commercial-legal,nda-triage,虚构双向NDA,虚构评测律师A,2026-06-09,是否正确触发升级,5,true,false,false,true,true,夹带竞业限制并正确标红
+EVAL-MA-001,cn-corporate-legal,issue-extraction,虚构星河智能设备投资项目,虚构评测律师B,2026-06-09,问题提取完整性,4,true,false,true,true,true,劳动和资质问题完整但一个低风险事项略误报
+EVAL-MA-002,cn-corporate-legal,closing-checklist,虚构星河智能设备投资项目,虚构评测律师B,2026-06-09,交割条件完整性,4,true,false,false,true,true,交割前和交割后事项清楚
+EVAL-LIT-001,cn-litigation-legal,chronology-builder,虚构青石贸易买卖合同纠纷,虚构评测律师C,2026-06-09,事实时间线完整性,5,true,false,false,true,true,关键日期和证据来源完整
+EVAL-LIT-002,cn-litigation-legal,evidence-index,虚构青石贸易买卖合同纠纷,虚构评测律师C,2026-06-09,三性提示准确性,4,true,false,false,true,true,真实性和原件情况提示清楚

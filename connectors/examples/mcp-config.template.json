@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "document-management-placeholder": {
+      "command": "your-mcp-server-command",
+      "args": ["--config", "path/to/local/config.json"],
+      "env": {
+        "API_BASE_URL": "https://example.invalid",
+        "API_TOKEN": "REPLACE_WITH_LOCAL_SECRET_DO_NOT_COMMIT"
+      }
+    }
+  }
+}

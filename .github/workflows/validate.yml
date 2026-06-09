@@ -1,0 +1,29 @@
+name: Validate repository structure
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate structure
+        run: python scripts/validate_structure.py
+
+      - name: Validate skill metadata
+        run: python scripts/validate_skill_metadata.py
+
+      - name: Validate plugin manifests
+        run: python scripts/validate_plugin_manifests.py
+
+      - name: Check for private material patterns
+        run: python scripts/validate_no_private_materials.py
