@@ -112,7 +112,7 @@ python scripts/validate_no_private_materials.py
 4. 真实项目必须在私有环境使用脱敏材料，并由负责律师复核。
 ## AI Governance MVP 试用提示
 
-`cn-ai-governance-legal` 已进入 MVP，但尚未完成端到端 acceptance。建议只使用虚构或脱敏材料试跑：
+`cn-ai-governance-legal` 已进入 MVP，并已补充虚构端到端验收包。建议先使用 `acceptance/ai-governance/input/` 中的虚构样例试跑：
 
 ```text
 请使用 cn-ai-governance-legal 的 ai-tool-intake 技能，对这个虚构 AI 工具上线场景做准入初筛，输出律师审阅用草稿、风险等级、待补材料、审批角色和升级事项。
@@ -122,4 +122,4 @@ python scripts/validate_no_private_materials.py
 请使用 cn-ai-governance-legal 的 ai-vendor-contract-review 技能，审查这份虚构 AI SaaS 服务条款摘要，重点关注客户数据训练、删除机制、审计权、分包、跨境、输出权属和责任限制。
 ```
 
-完整端到端验收入口规划见 `acceptance/ai-governance/`。
+完整端到端验收入口见 `acceptance/ai-governance/`，评测结论和待修复问题见 `acceptance/ai-governance/summary/`。
