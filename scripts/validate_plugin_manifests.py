@@ -7,6 +7,11 @@ EXPECTED = {
     "cn-commercial-legal",
     "cn-corporate-legal",
     "cn-litigation-legal",
+    "cn-privacy-legal",
+    "cn-ai-governance-legal",
+    "cn-employment-legal",
+    "cn-regulatory-legal",
+    "cn-ip-legal",
 }
 FORBIDDEN = ["cla" + "ude"]
 

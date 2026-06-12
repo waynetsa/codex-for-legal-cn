@@ -93,3 +93,15 @@ python scripts/validate_no_private_materials.py
 ## Alpha 可用性修复状态
 
 三个核心插件已经完成端到端验收，验收材料位于 `acceptance/`。当前进入 `v0.1.1-alpha` 候选阶段，重点修复合同谈判语言、并购交易文件影响映射、诉讼期限和保全提示等 P1/P2 可用性问题。
+
+## 第二阶段插件骨架
+
+`v0.1.1-alpha` 之后，本仓库新增五个第二阶段插件骨架：
+
+- `cn-privacy-legal`
+- `cn-ai-governance-legal`
+- `cn-employment-legal`
+- `cn-regulatory-legal`
+- `cn-ip-legal`
+
+这些插件目前仅为 scaffold，用于保留目录结构、manifest、cold-start interview 骨架、practice profile 模板、references/templates/evals 占位。它们尚未达到 alpha 可试用标准，也未完成端到端验收。

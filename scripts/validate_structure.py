@@ -6,6 +6,11 @@ PLUGINS = [
     "cn-commercial-legal",
     "cn-corporate-legal",
     "cn-litigation-legal",
+    "cn-privacy-legal",
+    "cn-ai-governance-legal",
+    "cn-employment-legal",
+    "cn-regulatory-legal",
+    "cn-ip-legal",
 ]
 REQUIRED = [
     ".codex-plugin/plugin.json",

@@ -1,0 +1,29 @@
+{
+  "name": "cn-employment-legal",
+  "version": "0.1.0",
+  "description": "劳动合同、员工手册、解除裁员和劳动争议材料整理的 Codex 骨架插件。",
+  "author": "waynetsa",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/waynetsa/codex-for-legal-cn",
+  "keywords": [
+    "codex",
+    "legal",
+    "china",
+    "law-firm",
+    "workflow",
+    "scaffold"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "中国劳动用工法律工作流",
+    "shortDescription": "劳动合同、员工手册、解除裁员和劳动争议材料整理的 Codex 骨架插件。",
+    "longDescription": "面向劳动合同、员工手册、解除与裁员、竞业限制、外包用工、内部调查和劳动争议材料整理。本阶段仅为 scaffold，不代表 alpha 可试用。",
+    "category": "Legal Workflow / Employment",
+    "capabilities": [
+      "cold-start interview for employment practice profile",
+      "employment workflow placeholder",
+      "labor dispute and HR document planning"
+    ],
+    "defaultPrompt": "请使用 cn-employment-legal 的 cold-start-interview 技能，生成劳动用工团队的 practice profile 草稿。本插件目前仅为 scaffold。"
+  }
+}
