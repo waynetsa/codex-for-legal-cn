@@ -43,3 +43,21 @@
 - 下一步优先发布 `v0.1.1-alpha`，并用虚构合同、虚构并购资料室和虚构诉讼案件再次试跑。
 
 第二阶段新插件仍应等待核心三插件稳定后再规划。
+
+## Phase 2 Scaffold
+
+第一阶段核心三插件已进入 `v0.1.1-alpha` 基线：
+
+- `cn-commercial-legal`
+- `cn-corporate-legal`
+- `cn-litigation-legal`
+
+第二阶段五个插件进入 scaffold 阶段：
+
+- `cn-privacy-legal`
+- `cn-ai-governance-legal`
+- `cn-employment-legal`
+- `cn-regulatory-legal`
+- `cn-ip-legal`
+
+当前原则：先建立目录、manifest、cold-start interview、profile 模板、references/templates/evals 占位和验证覆盖。下一步应逐个选择一个第二阶段插件做 MVP，不建议五个插件同时深度开发。

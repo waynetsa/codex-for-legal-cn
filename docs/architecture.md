@@ -6,6 +6,18 @@ Codex for Legal CN 将中国法律工作流拆成可组合的插件、技能、�
 plugin -> skill -> practice profile -> templates/references -> guardrails -> evals -> optional connectors
 ```
 
+## 第二阶段 Scaffold 层
+
+第二阶段新增插件目前只进入 scaffold 层：有插件 manifest、两个基础 skill、practice profile 模板、templates/references/evals 占位目录，但没有完成业务模板、评测样例或端到端验收。
+
+当前可试用路径仍以三个核心插件为主：
+
+- `cn-commercial-legal`
+- `cn-corporate-legal`
+- `cn-litigation-legal`
+
+第二阶段插件进入 MVP 前，应先为单个插件补齐具体 skills、模板、reference checklist、guardrails 接入、eval 样例和 acceptance 路径。
+
 ## Plugin
 
 Plugin 是一个执业领域或业务场景包。每个插件包含 `.codex-plugin/plugin.json`，声明名称、说明、技能目录和默认提示。

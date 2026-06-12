@@ -1,0 +1,29 @@
+{
+  "name": "cn-privacy-legal",
+  "version": "0.1.0",
+  "description": "个人信息保护、数据处理、数据出境和隐私文件审阅的 Codex 骨架插件。",
+  "author": "waynetsa",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/waynetsa/codex-for-legal-cn",
+  "keywords": [
+    "codex",
+    "legal",
+    "china",
+    "law-firm",
+    "workflow",
+    "scaffold"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "中国个人信息与数据合规工作流",
+    "shortDescription": "个人信息保护、数据处理、数据出境和隐私文件审阅的 Codex 骨架插件。",
+    "longDescription": "面向中国法语境下的个人信息保护、数据处理协议、数据出境、隐私影响评估、隐私政策审阅和数据合规清单。本阶段仅为 scaffold，不代表 alpha 可试用。",
+    "category": "Legal Workflow / Privacy",
+    "capabilities": [
+      "cold-start interview for privacy practice profile",
+      "data processing and privacy review workflow placeholder",
+      "privacy compliance checklist planning"
+    ],
+    "defaultPrompt": "请使用 cn-privacy-legal 的 cold-start-interview 技能，生成个人信息与数据合规团队的 practice profile 草稿。本插件目前仅为 scaffold。"
+  }
+}

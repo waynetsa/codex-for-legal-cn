@@ -1,0 +1,29 @@
+{
+  "name": "cn-regulatory-legal",
+  "version": "0.1.0",
+  "description": "监管动态、行业合规清单、问询响应和处罚风险梳理的 Codex 骨架插件。",
+  "author": "waynetsa",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/waynetsa/codex-for-legal-cn",
+  "keywords": [
+    "codex",
+    "legal",
+    "china",
+    "law-firm",
+    "workflow",
+    "scaffold"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "中国监管合规法律工作流",
+    "shortDescription": "监管动态、行业合规清单、问询响应和处罚风险梳理的 Codex 骨架插件。",
+    "longDescription": "面向监管动态监测、行业合规清单、监管问询响应、行政处罚风险梳理和政策变化影响分析。本阶段仅为 scaffold，不代表 alpha 可试用。",
+    "category": "Legal Workflow / Regulatory",
+    "capabilities": [
+      "cold-start interview for regulatory practice profile",
+      "regulatory workflow placeholder",
+      "policy and enforcement tracking planning"
+    ],
+    "defaultPrompt": "请使用 cn-regulatory-legal 的 cold-start-interview 技能，生成监管合规团队的 practice profile 草稿。本插件目前仅为 scaffold。"
+  }
+}

@@ -77,3 +77,7 @@ python scripts/validate_no_private_materials.py
 5. 使用 `acceptance/*/eval/` 和 `acceptance/summary/regression-after-alpha-fixes.md` 判断输出是否达到 alpha 可试用标准。
 
 真实项目试用前，应在私有环境中准备脱敏材料，并由负责律师确认模板、profile 和复核规则。
+
+## 第二阶段插件说明
+
+`cn-privacy-legal`、`cn-ai-governance-legal`、`cn-employment-legal`、`cn-regulatory-legal`、`cn-ip-legal` 目前只是 scaffold。普通使用者不应把它们当成可试用工作流；它们只适合用来讨论后续 MVP 拆分、团队访谈问题和 profile 结构。
