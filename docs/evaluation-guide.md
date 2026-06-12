@@ -1,5 +1,25 @@
 # Evaluation Guide
 
+## Privacy 后续验收维度
+
+`cn-privacy-legal` 已进入 MVP，但尚未完成端到端 acceptance。后续评测应使用虚构消费类 App / 小程序数据合规样例，读取顺序建议：
+
+1. `acceptance/privacy/README.md`
+2. `acceptance/privacy/planned-e2e-scenarios.md`
+3. `plugins/cn-privacy-legal/evals/sample-cases/fictional-consumer-app-privacy-eval.md`
+
+Privacy 评测建议覆盖：
+
+- 个人信息处理活动台账完整性。
+- 个人信息类型和敏感个人信息识别。
+- 隐私政策收集清单、第三方共享、用户权利路径、保存期限、未成年人和跨境提示。
+- 数据处理协议中的角色、处理范围、安全措施、分包、审计、删除和责任承担。
+- 个人信息保护影响评估中的必要性、风险控制和剩余风险。
+- 数据出境或境外供应商处理初筛是否避免确定性结论。
+- 用户请求响应流程是否覆盖身份核验、责任部门、留痕和律师复核。
+
+所有评测材料必须虚构或脱敏，不得使用真实个人信息、真实隐私政策、真实数据处理协议或真实供应商材料。
+
 本指南用于律所内部评测 Codex for Legal CN 的三个核心插件。评测对象是工作流输出质量，不是律师法律结论的正确率。
 
 ## 为什么要评测
