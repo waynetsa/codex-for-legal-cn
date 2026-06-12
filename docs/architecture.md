@@ -66,3 +66,10 @@ Connectors 是未来私有部署中的 MCP 接入层，负责在授权范围内�
 - `cn-ai-governance-legal`：scaffold。
 - `cn-employment-legal`：scaffold。
 - `cn-regulatory-legal`：scaffold。
+## 插件成熟度状态
+
+- Alpha 可试用：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`。
+- MVP，待端到端 acceptance：`cn-ai-governance-legal`。
+- Scaffold：`cn-privacy-legal`、`cn-employment-legal`、`cn-regulatory-legal`。
+
+`cn-ai-governance-legal` 当前遵循同一架构：`plugin -> skill -> practice profile -> templates/references -> guardrails -> evals -> optional connectors`。本阶段不接入真实 MCP 或真实系统。

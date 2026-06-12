@@ -127,3 +127,8 @@ python scripts/validate_no_private_materials.py
 ## cn-ip-legal v0.2.0-alpha 候选状态
 
 `cn-ip-legal` 已完成 MVP、虚构端到端 acceptance 和 alpha 修复回归。当前 P0 为 0，P1 已清零，剩余 P2 均为不影响 alpha 试用的体验优化项。若主线验证通过，可作为 `v0.2.0-alpha` 候选发布。
+## cn-ai-governance-legal MVP 状态
+
+`cn-ai-governance-legal` 已从 scaffold 升级为第二阶段第二个 MVP 插件，用于律所内部 AI 使用治理和企业客户 AI 工具、AI 项目、AI 供应商、AI 使用场景治理。当前能力包括 AI 使用制度草稿、AI 工具准入、AI 风险评估、AI 供应商合同审查和 AI 治理差距检查。
+
+该插件尚未完成端到端 acceptance。当前主要可试用插件仍为 `cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal` 和 `cn-ip-legal`；`cn-privacy-legal`、`cn-employment-legal`、`cn-regulatory-legal` 仍为 scaffold。
