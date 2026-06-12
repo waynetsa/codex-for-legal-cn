@@ -103,3 +103,10 @@ python scripts/validate_no_private_materials.py
 5. 使用 `acceptance/ip/eval/ip-eval-sheet.csv` 和 `acceptance/ip/eval/ip-findings.md` 评估输出质量。
 
 真实项目不得使用公开仓库材料承载客户资料或证据。
+
+## cn-ip-legal Alpha 试用路径
+
+1. 阅读 `acceptance/ip/README.md` 和 `acceptance/ip/input/` 下的虚构样例。
+2. 按顺序试用 `rights-chain-review`、`infringement-triage`、`ip-license-review`、`evidence-preservation-checklist`、`takedown-and-demand-letter-outline`。
+3. 对照 `acceptance/ip/summary/ip-regression-after-alpha-fixes.md` 检查输出是否满足 alpha 标准。
+4. 真实项目必须在私有环境使用脱敏材料，并由负责律师复核。

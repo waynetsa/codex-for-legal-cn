@@ -21,3 +21,16 @@
 | 权属链条表较宽 | rights-chain-review | plugins/cn-ip-legal/templates/rights-chain-table.md; acceptance/ip/output/rights-chain-review-result.md | 提供紧凑版和详细版两种输出 | P2 | 否 | 可选 |
 | 证据保全清单字段较多 | evidence-preservation-checklist | plugins/cn-ip-legal/templates/evidence-preservation-checklist.csv | 增加按“维权/应诉/平台投诉”筛选字段 | P2 | 否 | 可选 |
 | acceptance README 可增加快速导航 | all | acceptance/ip/README.md | 增加输入、输出、评测、summary 的文件清单表 | P2 | 否 | 可选 |
+
+## Alpha 修复后状态
+
+| 原优先级 | 问题描述 | 当前状态 | 是否影响发布 |
+| --- | --- | --- | --- |
+| P1 | 侵权初筛缺少比对材料优先级和比对方法说明 | 已修复 | 不影响 |
+| P1 | 授权审查替代表述颗粒度仍偏通用 | 已修复 | 不影响 |
+| P1 | 平台投诉材料清单可更细 | 已修复 | 不影响 |
+| P2 | 权属链条表较宽 | 已缓解，后续可继续优化紧凑视图 | 不影响 |
+| P2 | 证据保全清单字段较多 | 已缓解，后续可继续优化筛选视图 | 不影响 |
+| P2 | acceptance README 可增加快速导航 | 已修复 | 不影响 |
+
+最终判断：P0 为 0，P1 为 0，P2 仅剩可接受体验优化项。建议发布 `v0.2.0-alpha`。

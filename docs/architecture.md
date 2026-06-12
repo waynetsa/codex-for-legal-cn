@@ -55,3 +55,14 @@ Connectors 是未来私有部署中的 MCP 接入层，负责在授权范围内�
 ## cn-ip-legal Acceptance 状态
 
 `cn-ip-legal` 当前状态为 MVP + acceptance under review。它已有虚构端到端验收包，但尚未根据 IP backlog 完成 alpha 修复。其他第二阶段插件仍为 scaffold。
+
+## 当前插件成熟度
+
+- `cn-commercial-legal`：alpha 可试用。
+- `cn-corporate-legal`：alpha 可试用。
+- `cn-litigation-legal`：alpha 可试用。
+- `cn-ip-legal`：MVP + acceptance + alpha fix candidate。
+- `cn-privacy-legal`：scaffold。
+- `cn-ai-governance-legal`：scaffold。
+- `cn-employment-legal`：scaffold。
+- `cn-regulatory-legal`：scaffold。
