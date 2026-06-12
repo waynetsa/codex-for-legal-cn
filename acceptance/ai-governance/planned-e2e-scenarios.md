@@ -25,7 +25,7 @@
 - 虚构企业已有多个 AI 试点，但缺少工具台账、审批、供应商管理、员工培训和审计机制。
 - 需要验证 `ai-governance-gap-check` 输出整改路线图。
 
-## 后续输出文件规划
+## 本轮输出文件
 
 - `input/fictional-enterprise-ai-tool-rollout-fact-pack.md`
 - `input/fictional-ai-governance-practice-profile.md`
@@ -39,3 +39,7 @@
 - `eval/ai-governance-findings.md`
 - `summary/ai-governance-e2e-summary.md`
 - `summary/ai-governance-improvement-backlog.md`
+
+## 本轮状态
+
+本轮已补充完整虚构端到端验收包。验收结论和后续修复建议见 `summary/`，本轮不修复 backlog，不发布新 tag。

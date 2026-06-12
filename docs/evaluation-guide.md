@@ -129,7 +129,14 @@ IP alpha 修复后的回归记录位于 `acceptance/ip/summary/ip-regression-aft
 - 是否仍无真实客户资料、真实证据或密钥。
 ## AI Governance 后续验收维度
 
-`cn-ai-governance-legal` 已进入 MVP，尚未完成端到端 acceptance。后续评测建议覆盖：
+`cn-ai-governance-legal` 已进入 MVP，并已新增虚构端到端 acceptance。读取顺序建议：
+
+1. `acceptance/ai-governance/input/`
+2. `acceptance/ai-governance/output/`
+3. `acceptance/ai-governance/eval/ai-governance-findings.md`
+4. `acceptance/ai-governance/summary/ai-governance-improvement-backlog.md`
+
+AI governance 评测建议覆盖：
 
 - cold-start 是否能形成可填写的 AI 治理 practice profile。
 - AI 使用制度草稿是否区分允许、需审批、禁止场景。
@@ -138,4 +145,4 @@ IP alpha 修复后的回归记录位于 `acceptance/ip/summary/ip-regression-aft
 - AI 供应商合同审查是否覆盖客户数据训练、删除机制、审计权、分包、跨境、输出权属和责任限制。
 - AI 治理差距检查是否能形成 30/90/180 天整改路线图。
 
-评测材料必须虚构或脱敏，所有法律依据、监管口径和主管机关结论均需写“待律师核验”。
+评测材料必须虚构或脱敏，所有法律依据、监管口径和主管机关结论均需写“待律师核验”。本轮结论为 MVP acceptance 通过，但建议先做 alpha 修复再发布。

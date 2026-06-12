@@ -1,0 +1,16 @@
+eval_id,plugin,skill,sample_case,evaluator,date,dimension,score,major_issue_found,missed_issue,false_positive,source_traceable,attorney_review_required,editable_by_lawyer_or_compliance,needs_skill_fix,needs_template_fix,comments
+AI-GOV-E2E-001,cn-ai-governance-legal,cold-start-interview,fictional-enterprise-ai-rollout,fictional-evaluator,2026-06-12,团队画像完整性,4,false,false,false,true,true,true,false,false,服务对象和复核节点完整
+AI-GOV-E2E-002,cn-ai-governance-legal,ai-use-policy-builder,fictional-enterprise-ai-rollout,fictional-evaluator,2026-06-12,AI 使用制度结构完整性,4,false,false,false,true,true,true,false,true,结构可用但后续可增加培训附件模板
+AI-GOV-E2E-003,cn-ai-governance-legal,ai-use-policy-builder,fictional-enterprise-ai-rollout,fictional-evaluator,2026-06-12,禁止输入内容识别,5,false,false,false,true,true,true,false,false,客户秘密和敏感数据限制清楚
+AI-GOV-E2E-004,cn-ai-governance-legal,ai-tool-intake,fictional-enterprise-ai-rollout,fictional-evaluator,2026-06-12,工具准入信息完整性,4,false,false,false,true,true,true,false,false,审批角色和禁止上线条件清楚
+AI-GOV-E2E-005,cn-ai-governance-legal,ai-tool-intake,fictional-enterprise-ai-rollout,fictional-evaluator,2026-06-12,数据类型识别,5,false,false,false,true,true,true,false,false,覆盖合同资料、客户资料、员工资料、源代码和财务数据
+AI-GOV-E2E-006,cn-ai-governance-legal,ai-risk-assessment,fictional-enterprise-ai-rollout,fictional-evaluator,2026-06-12,个人信息和客户秘密风险识别,5,false,false,false,true,true,true,false,false,高风险和复核要求明确
+AI-GOV-E2E-007,cn-ai-governance-legal,ai-vendor-contract-review,fictional-vendor-contract-summary,fictional-evaluator,2026-06-12,供应商合同风险识别,4,false,false,false,true,true,true,false,true,核心风险覆盖但替代表述可更贴近谈判版本
+AI-GOV-E2E-008,cn-ai-governance-legal,ai-vendor-contract-review,fictional-vendor-contract-summary,fictional-evaluator,2026-06-12,客户数据训练条款识别,5,false,false,false,true,true,true,false,false,红旗风险正确升级
+AI-GOV-E2E-009,cn-ai-governance-legal,ai-vendor-contract-review,fictional-vendor-contract-summary,fictional-evaluator,2026-06-12,输出内容权属风险识别,4,false,false,false,true,true,true,false,false,识别充分但后续可增加开源和第三方素材说明
+AI-GOV-E2E-010,cn-ai-governance-legal,ai-risk-assessment,fictional-enterprise-ai-rollout,fictional-evaluator,2026-06-12,自动决策或对外输出风险识别,5,false,false,false,true,true,true,false,false,客服自动回复和对外发布均触发复核
+AI-GOV-E2E-011,cn-ai-governance-legal,ai-governance-gap-check,fictional-enterprise-ai-rollout,fictional-evaluator,2026-06-12,治理差距识别,4,false,false,false,true,true,true,false,false,制度、审批、供应商、日志、培训均覆盖
+AI-GOV-E2E-012,cn-ai-governance-legal,ai-governance-gap-check,fictional-enterprise-ai-rollout,fictional-evaluator,2026-06-12,整改路线图可用性,4,false,false,false,true,true,true,false,true,30/90/180 天路线图可用但责任人字段可更细
+AI-GOV-E2E-013,cn-ai-governance-legal,all,fictional-enterprise-ai-rollout,fictional-evaluator,2026-06-12,升级事项识别,5,false,false,false,true,true,true,false,false,红旗和高风险均进入升级事项
+AI-GOV-E2E-014,cn-ai-governance-legal,all,fictional-enterprise-ai-rollout,fictional-evaluator,2026-06-12,输出可编辑性,4,false,false,false,true,true,true,false,true,可编辑性较好，部分表格可增加紧凑版
+AI-GOV-E2E-015,cn-ai-governance-legal,all,fictional-enterprise-ai-rollout,fictional-evaluator,2026-06-12,来源和法律依据核验提示,5,false,false,false,true,true,true,false,false,均标注待律师核验
