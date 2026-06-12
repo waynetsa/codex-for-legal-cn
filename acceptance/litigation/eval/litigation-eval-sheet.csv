@@ -1,0 +1,9 @@
+eval_id,plugin,skill,sample_case,evaluator,date,dimension,score,major_issue_found,missed_issue,false_positive,source_traceable,attorney_review_required,comments
+LIT-E2E-001,cn-litigation-legal,matter-intake,青石贸易买卖合同纠纷,虚构验收律师C,2026-06-09,intake 完整性,5,true,false,false,true,true,角色请求和补材齐全
+LIT-E2E-002,cn-litigation-legal,chronology-builder,青石贸易买卖合同纠纷,虚构验收律师C,2026-06-09,时间线完整性,5,true,false,false,true,true,保留全部关键事件
+LIT-E2E-003,cn-litigation-legal,evidence-index,青石贸易买卖合同纠纷,虚构验收律师C,2026-06-09,证据目录结构,5,true,false,false,true,true,编号证明目的三性齐全
+LIT-E2E-004,cn-litigation-legal,evidence-index,青石贸易买卖合同纠纷,虚构验收律师C,2026-06-09,证明目的表达,4,true,false,false,true,true,表达谨慎可编辑
+LIT-E2E-005,cn-litigation-legal,evidence-index,青石贸易买卖合同纠纷,虚构验收律师C,2026-06-09,三性提示,5,true,false,false,true,true,真实性合法性关联性均有提示
+LIT-E2E-006,cn-litigation-legal,issue-chart,青石贸易买卖合同纠纷,虚构验收律师C,2026-06-09,争点提炼质量,5,true,false,false,true,true,三个争点清晰
+LIT-E2E-007,cn-litigation-legal,hearing-prep,青石贸易买卖合同纠纷,虚构验收律师C,2026-06-09,期限和升级事项,4,true,false,false,true,true,期限均待律师核验并升级
+LIT-E2E-008,cn-litigation-legal,matter-status,青石贸易买卖合同纠纷,虚构验收律师C,2026-06-09,输出可编辑性,5,true,false,false,true,true,周报简洁清楚

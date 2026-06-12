@@ -2,7 +2,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SCAN_DIRS = ["docs", "examples", "plugins", "shared", "connectors"]
+SCAN_DIRS = ["docs", "examples", "plugins", "shared", "connectors", "acceptance"]
 FAIL_PATTERNS = [
     ("private key header", re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH |)PRIVATE KEY-----")),
     ("github token", re.compile(r"ghp_[A-Za-z0-9_]{30,}")),

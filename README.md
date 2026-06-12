@@ -1,6 +1,6 @@
 # Codex for Legal CN
 
-作者：waynetsa  
+作者：waynetsa
 仓库地址：https://github.com/waynetsa/codex-for-legal-cn
 
 ## 项目是什么
@@ -79,3 +79,13 @@ python scripts/validate_no_private_materials.py
 ## 免责声明
 
 本项目是法律工作流模板项目，不包含法律意见，不替代律师判断，不构成律师客户关系。任何正式法律文件、意见、函件、诉讼文书或交易文件均必须由合格法律专业人士复核后使用。
+
+## 端到端验收样例
+
+`acceptance/` 目录提供 `v0.1.0-alpha` 的三条虚构端到端验收路径：
+
+- 合同审查路径。
+- 并购尽调路径。
+- 诉讼案件路径。
+
+这些样例只使用虚构材料，用于验证三个核心插件能否生成可编辑的“律师审阅用草稿”。后续改进应优先参考 `acceptance/summary/improvement-backlog.md`。
