@@ -122,4 +122,4 @@ python scripts/validate_no_private_materials.py
 请使用 cn-ai-governance-legal 的 ai-vendor-contract-review 技能，审查这份虚构 AI SaaS 服务条款摘要，重点关注客户数据训练、删除机制、审计权、分包、跨境、输出权属和责任限制。
 ```
 
-完整端到端验收入口见 `acceptance/ai-governance/`，评测结论和待修复问题见 `acceptance/ai-governance/summary/`。
+完整端到端验收入口见 `acceptance/ai-governance/`。alpha 修复后的回归结论见 `acceptance/ai-governance/summary/ai-governance-regression-after-alpha-fixes.md`。

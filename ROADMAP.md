@@ -98,6 +98,7 @@
 - 已完成：`cn-ip-legal` MVP、端到端 acceptance、alpha 修复，达到 alpha 可试用。
 - 已完成：`cn-ai-governance-legal` 从 scaffold 升级为 MVP。
 - 本轮新增：`cn-ai-governance-legal` 虚构端到端 acceptance、findings 和 improvement backlog。
+- 本轮完成：`cn-ai-governance-legal` alpha 修复和 regression，达到 `v0.3.0-alpha` 候选条件。
 - 仍为 scaffold：`cn-privacy-legal`、`cn-employment-legal`、`cn-regulatory-legal`。
 
-下一步建议根据 AI governance backlog 做一轮 alpha 修复，再判断是否发布 `v0.3.0-alpha`；不要同时深挖多个第二阶段插件。
+`v0.3.0-alpha` 候选条件：PR #10 合并、AI governance 修复 PR 合并、验证脚本通过、无敏感文件、P0 为 0、P1 清零或降级为可接受 P2。下一步建议发布后优先选择 `cn-privacy-legal` 做 MVP，不要同时深挖 employment 和 regulatory。
