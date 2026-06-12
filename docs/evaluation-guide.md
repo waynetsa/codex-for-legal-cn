@@ -2,11 +2,14 @@
 
 ## Privacy 后续验收维度
 
-`cn-privacy-legal` 已进入 MVP，但尚未完成端到端 acceptance。后续评测应使用虚构消费类 App / 小程序数据合规样例，读取顺序建议：
+`cn-privacy-legal` 已进入 MVP，并已新增虚构端到端 acceptance。读取顺序建议：
 
 1. `acceptance/privacy/README.md`
 2. `acceptance/privacy/planned-e2e-scenarios.md`
-3. `plugins/cn-privacy-legal/evals/sample-cases/fictional-consumer-app-privacy-eval.md`
+3. `acceptance/privacy/input/`
+4. `acceptance/privacy/output/`
+5. `acceptance/privacy/eval/privacy-findings.md`
+6. `acceptance/privacy/summary/privacy-improvement-backlog.md`
 
 Privacy 评测建议覆盖：
 

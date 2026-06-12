@@ -20,6 +20,19 @@
 
 完整端到端验收尚未开始，计划入口见 `acceptance/privacy/`。
 
+## 使用虚构 Privacy 样例试跑
+
+`acceptance/privacy/` 已提供虚构消费类 App / 小程序数据合规验收包。建议按以下顺序阅读和试跑：
+
+1. `acceptance/privacy/input/fictional-consumer-app-privacy-fact-pack.md`
+2. `acceptance/privacy/input/fictional-privacy-practice-profile.md`
+3. `acceptance/privacy/input/fictional-data-processing-agreement-summary.md`
+4. `acceptance/privacy/output/`
+5. `acceptance/privacy/eval/privacy-findings.md`
+6. `acceptance/privacy/summary/privacy-improvement-backlog.md`
+
+真实项目试用前，必须在私有环境中使用脱敏材料，并由负责律师确认 profile、模板、复核规则和客户授权边界。
+
 本指南面向普通法律工作者和项目管理员。请先确认你使用的是脱敏材料或虚构样例。
 
 ## 安装和检查

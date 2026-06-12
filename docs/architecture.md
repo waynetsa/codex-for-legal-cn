@@ -3,10 +3,10 @@
 ## 当前插件成熟度状态
 
 - Alpha 可试用：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`。
-- MVP，尚未端到端验收：`cn-privacy-legal`。
+- MVP + acceptance under review：`cn-privacy-legal`。
 - Scaffold：`cn-employment-legal`、`cn-regulatory-legal`。
 
-`cn-privacy-legal` 遵循同一架构：`plugin -> skill -> practice profile -> templates/references -> guardrails -> evals -> optional connectors`。本阶段仅补齐个人信息保护与数据合规 MVP 工作流，不接入真实 MCP、不使用真实个人信息或客户资料。
+`cn-privacy-legal` 遵循同一架构：`plugin -> skill -> practice profile -> templates/references -> guardrails -> evals -> optional connectors`。当前已补齐个人信息保护与数据合规 MVP 工作流，并新增虚构端到端 acceptance；本阶段不接入真实 MCP、不使用真实个人信息或客户资料。
 
 Codex for Legal CN 将中国法律工作流拆成可组合的插件、技能、团队口径、模板、参考资料、安全规则、评测和可选连接器。
 
