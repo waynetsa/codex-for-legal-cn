@@ -8,6 +8,12 @@
 
 当前可试用状态：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal` 为 alpha 可试用；`cn-privacy-legal` 为 MVP 待验收；`cn-employment-legal` 和 `cn-regulatory-legal` 仍为 scaffold。
 
+## cn-privacy-legal 端到端验收
+
+`cn-privacy-legal` 已新增虚构端到端验收入口：[acceptance/privacy/](acceptance/privacy/)。本轮验收覆盖虚构消费类 App / 小程序数据合规事实包、虚构 privacy practice profile、虚构数据处理协议摘要、七个 privacy MVP skill 输出、评测表、findings、summary 和 improvement backlog。
+
+验收材料不包含真实客户、真实企业、真实用户、真实个人信息、真实 App、真实小程序、真实 SDK、真实系统地址或真实供应商协议。当前结论：MVP 达到 acceptance 标准，但建议先根据 privacy backlog 做 alpha 修复，再考虑发布 `v0.4.0-alpha`。
+
 作者：waynetsa
 仓库地址：https://github.com/waynetsa/codex-for-legal-cn
 

@@ -1,0 +1,16 @@
+eval_id,plugin,skill,sample_case,evaluator,date,dimension,score,major_issue_found,missed_issue,false_positive,source_traceable,attorney_review_required,editable_by_lawyer,needs_skill_fix,needs_template_fix,comments
+PRIV-E2E-001,cn-privacy-legal,cold-start-interview,fictional-consumer-app,fictional-evaluator,2026-06-13,团队画像完整性,5,false,false,false,true,true,true,false,false,能覆盖服务对象、业务场景、风险偏好和复核节点
+PRIV-E2E-002,cn-privacy-legal,personal-info-processing-map,fictional-consumer-app,fictional-evaluator,2026-06-13,个人信息处理活动梳理完整性,4,false,false,false,true,true,true,false,true,台账完整但宽表字段较多，建议后续拆成核心表和第三方表
+PRIV-E2E-003,cn-privacy-legal,personal-info-processing-map,fictional-consumer-app,fictional-evaluator,2026-06-13,个人信息类型识别,5,false,false,false,true,true,true,false,false,手机号、设备、日志、位置、订单、客服记录均被识别
+PRIV-E2E-004,cn-privacy-legal,personal-info-processing-map,fictional-consumer-app,fictional-evaluator,2026-06-13,敏感个人信息识别,4,false,false,false,true,true,true,true,false,能提示位置信息、未成年人和客服敏感描述，但可增加敏感性判断说明
+PRIV-E2E-005,cn-privacy-legal,privacy-policy-review,fictional-consumer-app,fictional-evaluator,2026-06-13,第三方 SDK / 第三方共享识别,5,false,false,false,true,true,true,false,false,云桥、北星、星图、远岚均进入风险表
+PRIV-E2E-006,cn-privacy-legal,privacy-policy-review,fictional-consumer-app,fictional-evaluator,2026-06-13,告知和同意状态提示,4,false,false,false,true,true,true,true,false,均写待律师核验，但后续可增加告知材料清单
+PRIV-E2E-007,cn-privacy-legal,privacy-policy-review,fictional-consumer-app,fictional-evaluator,2026-06-13,隐私政策审阅结构完整性,5,false,false,false,true,true,true,false,false,覆盖适用范围、收集清单、第三方、用户权利、未成年人和跨境
+PRIV-E2E-008,cn-privacy-legal,data-processing-agreement-review,fictional-dpa-summary,fictional-evaluator,2026-06-13,数据处理协议角色识别,4,false,false,false,true,true,true,true,false,能提示角色待律师核验，后续可强化共同处理/受托处理判断路径
+PRIV-E2E-009,cn-privacy-legal,data-processing-agreement-review,fictional-dpa-summary,fictional-evaluator,2026-06-13,分包再委托审计权删除返还识别,5,false,false,false,true,true,true,false,false,覆盖分包、审计、删除证明、安全事件和终止后处理
+PRIV-E2E-010,cn-privacy-legal,privacy-impact-assessment,fictional-consumer-app,fictional-evaluator,2026-06-13,影响评估风险识别,4,false,false,false,true,true,true,true,false,能识别红旗和高风险，后续可补剩余风险分级口径
+PRIV-E2E-011,cn-privacy-legal,data-transfer-triage,fictional-consumer-app,fictional-evaluator,2026-06-13,数据出境初筛结构,5,false,false,false,true,true,true,false,false,未作确定结论，所有路径均待律师核验
+PRIV-E2E-012,cn-privacy-legal,data-subject-request-workflow,fictional-consumer-app,fictional-evaluator,2026-06-13,用户请求响应流程可用性,4,false,false,false,true,true,true,false,true,流程清楚，但答复提纲可进一步拆分为删除、复制、注销三类
+PRIV-E2E-013,cn-privacy-legal,all,fictional-consumer-app,fictional-evaluator,2026-06-13,升级事项识别,5,false,false,false,true,true,true,false,false,境外远程访问、未成年人、敏感信息、用户答复均触发升级
+PRIV-E2E-014,cn-privacy-legal,all,fictional-consumer-app,fictional-evaluator,2026-06-13,输出可编辑性,4,false,false,false,true,true,true,false,true,整体可编辑，部分表格后续可拆短
+PRIV-E2E-015,cn-privacy-legal,all,fictional-consumer-app,fictional-evaluator,2026-06-13,来源和法律依据核验提示,5,false,false,false,true,true,true,false,false,法律依据、监管口径和出境路径均标注待律师核验
