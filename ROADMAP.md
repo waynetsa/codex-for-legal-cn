@@ -61,3 +61,16 @@
 - `cn-ip-legal`
 
 当前原则：先建立目录、manifest、cold-start interview、profile 模板、references/templates/evals 占位和验证覆盖。下一步应逐个选择一个第二阶段插件做 MVP，不建议五个插件同时深度开发。
+
+## cn-ip-legal MVP
+
+`cn-ip-legal` 已作为第二阶段第一个 MVP 插件进入开发，覆盖权属链条、侵权初筛、授权审查、证据保全和下架/函件提纲。
+
+下一步不是继续扩展其他第二阶段插件，而是为 `cn-ip-legal` 增加虚构内容 IP 争议端到端验收包，验证：
+
+- cold-start profile 是否可用。
+- rights-chain-review 是否能识别权利缺口。
+- infringement-triage 是否避免最终侵权结论。
+- ip-license-review 是否能输出可编辑条款审查表。
+- evidence-preservation-checklist 是否覆盖证据三性和保全提示。
+- takedown-and-demand-letter-outline 是否明确不得直接发送。

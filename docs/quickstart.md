@@ -81,3 +81,15 @@ python scripts/validate_no_private_materials.py
 ## 第二阶段插件说明
 
 `cn-privacy-legal`、`cn-ai-governance-legal`、`cn-employment-legal`、`cn-regulatory-legal`、`cn-ip-legal` 目前只是 scaffold。普通使用者不应把它们当成可试用工作流；它们只适合用来讨论后续 MVP 拆分、团队访谈问题和 profile 结构。
+
+## cn-ip-legal MVP 试用提示
+
+`cn-ip-legal` 已进入 MVP，但尚未完成端到端 acceptance。试用时仅应使用虚构或脱敏材料，并从以下技能中选择：
+
+- `rights-chain-review`：整理内容项目权属链条。
+- `infringement-triage`：进行侵权风险初筛，不作最终侵权结论。
+- `ip-license-review`：审查授权许可条款。
+- `evidence-preservation-checklist`：整理证据保全清单。
+- `takedown-and-demand-letter-outline`：生成下架、投诉或函件内部提纲。
+
+所有输出均应标注“律师审阅用草稿”，对外发送、平台提交或诉讼使用前必须由负责律师复核。
