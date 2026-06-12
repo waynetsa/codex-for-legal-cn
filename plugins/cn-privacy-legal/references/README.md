@@ -1,12 +1,14 @@
-# References
+# cn-privacy-legal References
 
-> 律师审阅用草稿。`cn-privacy-legal` 当前仅为第二阶段 scaffold，不代表 alpha 可试用。
+> 律师审阅用草稿。本目录提供中国法语境下的流程提醒和检查清单，不构成法律意见，不列具体法条编号。所有法律依据、监管口径和主管机关要求均需待律师核验。
 
-本目录用于后续存放 `中国个人信息与数据合规工作流` 的 references。当前只保留占位说明，避免在 scaffold 阶段过早写入未经验证的业务细节。
+本插件 MVP 参考资料包括：
 
-## 后续补充方向
+- `china-privacy-workflow-checklist.md`：个人信息保护与数据合规项目总流程。
+- `personal-info-type-taxonomy.md`：个人信息类型和敏感个人信息判断提示。
+- `privacy-policy-review-checklist.md`：隐私政策审阅检查清单。
+- `data-processing-agreement-checklist.md`：数据处理协议、委托处理和共享条款检查清单。
+- `data-transfer-triage-checklist.md`：数据出境、境外处理和跨境访问初筛清单。
+- `data-subject-request-checklist.md`：用户个人信息请求响应检查清单。
 
-- 围绕以下事项逐步补充：个人信息保护、数据处理协议、数据出境、隐私影响评估、隐私政策审阅、数据合规清单。
-- 所有内容必须使用虚构或脱敏样例。
-- 法律依据、监管规则、案例和官方口径必须由律师核验。
-- 不得提交真实客户资料、个人信息、商业秘密、密钥或私有系统配置。
+使用时应结合客户业务、产品形态、数据流、供应商材料和最新规则进行人工核验。

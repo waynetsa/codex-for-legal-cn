@@ -1,12 +1,14 @@
-# Templates
+# cn-privacy-legal Templates
 
-> 律师审阅用草稿。`cn-privacy-legal` 当前仅为第二阶段 scaffold，不代表 alpha 可试用。
+> 律师审阅用草稿。本目录只保存模板和占位格式，不保存真实客户、真实用户、真实系统、真实供应商、真实数据处理协议或真实隐私政策。
 
-本目录用于后续存放 `中国个人信息与数据合规工作流` 的 templates。当前只保留占位说明，避免在 scaffold 阶段过早写入未经验证的业务细节。
+本插件 MVP 模板包括：
 
-## 后续补充方向
+- `personal-info-processing-map.csv`：个人信息处理活动台账。
+- `privacy-policy-review-memo.md`：隐私政策审阅备忘录。
+- `data-processing-agreement-review-memo.md`：数据处理协议审查备忘录。
+- `privacy-impact-assessment-outline.md`：个人信息保护影响评估初稿结构。
+- `data-transfer-triage-table.md`：数据出境或境外处理初筛表。
+- `data-subject-request-workflow.md`：用户个人信息请求响应流程。
 
-- 围绕以下事项逐步补充：个人信息保护、数据处理协议、数据出境、隐私影响评估、隐私政策审阅、数据合规清单。
-- 所有内容必须使用虚构或脱敏样例。
-- 法律依据、监管规则、案例和官方口径必须由律师核验。
-- 不得提交真实客户资料、个人信息、商业秘密、密钥或私有系统配置。
+所有模板均需由律师、法务、合规、IT、安全或客户负责人复核后，才可用于正式制度、客户交付、监管沟通或对外答复。

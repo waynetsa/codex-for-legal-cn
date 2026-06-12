@@ -1,5 +1,13 @@
 # Codex for Legal CN
 
+## cn-privacy-legal MVP 状态
+
+`cn-privacy-legal` 已从 scaffold 升级为第二阶段第三个 MVP 插件，面向中国律所和企业客户的个人信息保护与数据合规工作流。当前能力包括个人信息处理活动梳理、隐私政策审阅、数据处理协议审查、个人信息保护影响评估、数据出境初筛和用户个人信息请求响应流程。
+
+该插件仍只生成“律师审阅用草稿”，不提供法律意见，不得直接作为正式隐私政策、正式评估报告、监管提交材料或用户答复。当前仅完成 MVP 能力建设，尚未完成端到端 acceptance。后续验收计划见 [acceptance/privacy/](acceptance/privacy/)。
+
+当前可试用状态：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal` 为 alpha 可试用；`cn-privacy-legal` 为 MVP 待验收；`cn-employment-legal` 和 `cn-regulatory-legal` 仍为 scaffold。
+
 作者：waynetsa
 仓库地址：https://github.com/waynetsa/codex-for-legal-cn
 

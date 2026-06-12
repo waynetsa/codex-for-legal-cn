@@ -1,7 +1,7 @@
 {
   "name": "cn-privacy-legal",
-  "version": "0.1.0",
-  "description": "个人信息保护、数据处理、数据出境和隐私文件审阅的 Codex 骨架插件。",
+  "version": "0.2.0",
+  "description": "中国个人信息保护与数据合规法律工作流插件，用于个人信息处理活动梳理、隐私政策审阅、数据处理协议审查、影响评估、数据出境初筛和用户请求响应。",
   "author": "waynetsa",
   "license": "Apache-2.0",
   "repository": "https://github.com/waynetsa/codex-for-legal-cn",
@@ -9,21 +9,26 @@
     "codex",
     "legal",
     "china",
-    "law-firm",
-    "workflow",
-    "scaffold"
+    "privacy",
+    "data-compliance",
+    "personal-information",
+    "workflow"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "中国个人信息与数据合规工作流",
-    "shortDescription": "个人信息保护、数据处理、数据出境和隐私文件审阅的 Codex 骨架插件。",
-    "longDescription": "面向中国法语境下的个人信息保护、数据处理协议、数据出境、隐私影响评估、隐私政策审阅和数据合规清单。本阶段仅为 scaffold，不代表 alpha 可试用。",
+    "shortDescription": "面向中国法语境的个人信息保护、隐私政策、数据处理协议、影响评估、出境初筛和用户请求响应工作流。",
+    "longDescription": "cn-privacy-legal 帮助律师、法务和合规负责人生成个人信息处理活动台账、隐私政策审阅意见、数据处理协议审查备忘录、个人信息保护影响评估草稿、数据出境初筛表和用户请求响应流程草稿。所有输出均为律师审阅用草稿，不提供法律意见。",
     "category": "Legal Workflow / Privacy",
     "capabilities": [
       "cold-start interview for privacy practice profile",
-      "data processing and privacy review workflow placeholder",
-      "privacy compliance checklist planning"
+      "personal information processing activity mapping",
+      "privacy policy review",
+      "data processing agreement review",
+      "privacy impact assessment outline",
+      "data transfer triage",
+      "data subject request workflow"
     ],
-    "defaultPrompt": "请使用 cn-privacy-legal 的 cold-start-interview 技能，生成个人信息与数据合规团队的 practice profile 草稿。本插件目前仅为 scaffold。"
+    "defaultPrompt": "请使用 cn-privacy-legal 的 cold-start-interview 技能，生成个人信息保护与数据合规团队的执业口径档案草稿。所有输出必须标注“律师审阅用草稿”，不构成法律意见。"
   }
 }

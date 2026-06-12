@@ -1,5 +1,13 @@
 # Roadmap
 
+## 当前阶段：Privacy MVP
+
+- 已完成：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal` alpha 可试用。
+- 本轮新增：`cn-privacy-legal` 从 scaffold 升级为 MVP，覆盖个人信息处理活动梳理、隐私政策审阅、数据处理协议审查、影响评估、数据出境初筛和用户请求响应。
+- 仍为 scaffold：`cn-employment-legal`、`cn-regulatory-legal`。
+
+下一步应为 `cn-privacy-legal` 增加虚构消费类 App / 小程序数据合规端到端验收包，并根据验收 backlog 再做 alpha 修复。不要同时深挖 employment 和 regulatory。
+
 仓库地址：https://github.com/waynetsa/codex-for-legal-cn
 
 ## 已完成
