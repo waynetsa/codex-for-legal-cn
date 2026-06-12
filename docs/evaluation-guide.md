@@ -23,6 +23,8 @@ Privacy 评测建议覆盖：
 
 所有评测材料必须虚构或脱敏，不得使用真实个人信息、真实隐私政策、真实数据处理协议或真实供应商材料。
 
+Privacy alpha 修复后的回归结果读取 `acceptance/privacy/summary/privacy-regression-after-alpha-fixes.md`。评测负责人应确认 P0 为 0、P1 清零、剩余 P2 仅为体验优化项，再建议进入 `v0.4.0-alpha` 发布。
+
 本指南用于律所内部评测 Codex for Legal CN 的三个核心插件。评测对象是工作流输出质量，不是律师法律结论的正确率。
 
 ## 为什么要评测

@@ -14,6 +14,10 @@
 
 验收材料不包含真实客户、真实企业、真实用户、真实个人信息、真实 App、真实小程序、真实 SDK、真实系统地址或真实供应商协议。当前结论：MVP 达到 acceptance 标准，但建议先根据 privacy backlog 做 alpha 修复，再考虑发布 `v0.4.0-alpha`。
 
+## cn-privacy-legal v0.4.0-alpha 候选状态
+
+`cn-privacy-legal` 已完成 MVP、虚构端到端 acceptance 和 alpha 修复回归。回归记录见 [acceptance/privacy/summary/privacy-regression-after-alpha-fixes.md](acceptance/privacy/summary/privacy-regression-after-alpha-fixes.md)。当前 P0 为 0，P1 已清零，剩余 P2 为不影响 alpha 试用的体验优化项。若主线验证通过，可作为 `v0.4.0-alpha` 候选发布。
+
 作者：waynetsa
 仓库地址：https://github.com/waynetsa/codex-for-legal-cn
 
