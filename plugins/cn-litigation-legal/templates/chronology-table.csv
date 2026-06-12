@@ -1,1 +1,1 @@
-日期,事件,参与方,证据来源,事实争议程度,对诉请或抗辩的意义,待核实事项,证据缺口,关联争点
+date,event,event_level,key_importance,participants,evidence_source,procedural_or_evidence_deadline,deadline_source,factual_dispute_level,meaning_for_claim_or_defense,to_verify,evidence_gap,related_issue,escalation
