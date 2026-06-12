@@ -9,6 +9,18 @@
 
 下一步应根据 `acceptance/privacy/summary/privacy-improvement-backlog.md` 判断是否先做 privacy alpha 修复，再考虑发布 `v0.4.0-alpha`。不要同时深挖 employment 和 regulatory。
 
+## v0.4.0-alpha Candidate
+
+候选条件：
+
+- PR #13 已合并。
+- Privacy alpha 修复 PR 已合并。
+- `cn-privacy-legal` 完成 MVP、acceptance、alpha 修复和 regression。
+- P0 为 0，P1 为 0，P2 仅为可接受体验优化项。
+- 验证脚本全部通过，且未发现 `.env`、私钥、密钥文件或 `practice-profile.md`。
+
+满足以上条件后，可发布 `v0.4.0-alpha`。`cn-employment-legal` 和 `cn-regulatory-legal` 仍保持 scaffold。
+
 仓库地址：https://github.com/waynetsa/codex-for-legal-cn
 
 ## 已完成
