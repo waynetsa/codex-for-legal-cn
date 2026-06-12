@@ -145,4 +145,4 @@ AI governance 评测建议覆盖：
 - AI 供应商合同审查是否覆盖客户数据训练、删除机制、审计权、分包、跨境、输出权属和责任限制。
 - AI 治理差距检查是否能形成 30/90/180 天整改路线图。
 
-评测材料必须虚构或脱敏，所有法律依据、监管口径和主管机关结论均需写“待律师核验”。本轮结论为 MVP acceptance 通过，但建议先做 alpha 修复再发布。
+评测材料必须虚构或脱敏，所有法律依据、监管口径和主管机关结论均需写“待律师核验”。AI governance alpha 修复后的回归结果读取 `acceptance/ai-governance/summary/ai-governance-regression-after-alpha-fixes.md`；若 P0 为 0、P1 清零且剩余 P2 仅为体验优化，可进入 alpha 发布。
