@@ -105,3 +105,15 @@ python scripts/validate_no_private_materials.py
 - `cn-ip-legal`
 
 这些插件目前仅为 scaffold，用于保留目录结构、manifest、cold-start interview 骨架、practice profile 模板、references/templates/evals 占位。它们尚未达到 alpha 可试用标准，也未完成端到端验收。
+
+## cn-ip-legal MVP
+
+`cn-ip-legal` 是第二阶段第一个进入 MVP 的插件，面向中国知识产权和文化传媒法律工作流。当前 MVP 覆盖：
+
+- 权属链条整理。
+- 版权、商标、角色形象、音乐、游戏素材等侵权初筛。
+- IP 授权许可条款审查。
+- 维权或应诉证据整理和保全清单。
+- 平台投诉、下架通知、律师函或沟通函内部提纲。
+
+`cn-ip-legal` 仍不提供法律意见，所有输出均为“律师审阅用草稿”。它尚未完成端到端 acceptance，后续将使用虚构内容 IP 争议包进行验收。其他第二阶段插件仍保持 scaffold 状态。

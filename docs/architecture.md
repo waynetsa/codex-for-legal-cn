@@ -18,6 +18,12 @@ plugin -> skill -> practice profile -> templates/references -> guardrails -> eva
 
 第二阶段插件进入 MVP 前，应先为单个插件补齐具体 skills、模板、reference checklist、guardrails 接入、eval 样例和 acceptance 路径。
 
+## cn-ip-legal 状态
+
+`cn-ip-legal` 已从 scaffold 升级为第二阶段第一个 MVP 插件。它拥有独立 skills、templates、references、eval 指引和 planned acceptance 目录，但尚未完成端到端 acceptance。
+
+其他第二阶段插件仍保持 scaffold，不应在当前架构中被描述为 alpha-ready 或 MVP-ready。
+
 ## Plugin
 
 Plugin 是一个执业领域或业务场景包。每个插件包含 `.codex-plugin/plugin.json`，声明名称、说明、技能目录和默认提示。
