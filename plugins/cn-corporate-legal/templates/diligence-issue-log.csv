@@ -1,1 +1,1 @@
-问题编号,问题领域,事实摘要,风险说明,重大性判断,对交易文件的影响,建议追问,建议交割条件或交割后义务,待律师核验法律依据,是否升级
+issue_id,area,confirmed_fact,risk_judgment,materiality,valuation_impact,rep_warranty_impact,indemnity_impact,closing_condition,post_closing_obligation,follow_up_question,missing_material,disclosure_schedule_position,attorney_review_required,escalation,owner,status

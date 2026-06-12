@@ -33,3 +33,13 @@
 ## 当前下一步
 
 当前优先事项不是直接扩展第二阶段新插件，而是根据 `acceptance/summary/improvement-backlog.md` 修复三个核心插件的 alpha 试用问题。建议先完成一轮核心插件修复 PR，再规划隐私合规、AI 治理、劳动用工、监管监测和知识产权插件。
+
+## v0.1.1-alpha candidate
+
+当前阶段：根据 `acceptance/summary/improvement-backlog.md` 修复核心三插件的 alpha 可用性问题。
+
+- P1：合同替代表述、并购重大性映射、诉讼时间线、期限和保全提示。
+- P2：评测表总体结论、acceptance 文件索引、宽表输出体验。
+- 下一步优先发布 `v0.1.1-alpha`，并用虚构合同、虚构并购资料室和虚构诉讼案件再次试跑。
+
+第二阶段新插件仍应等待核心三插件稳定后再规划。

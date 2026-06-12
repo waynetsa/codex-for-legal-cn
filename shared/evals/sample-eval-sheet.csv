@@ -1,7 +1,7 @@
-eval_id,plugin,skill,sample_case,evaluator,date,dimension,score,major_issue_found,missed_issue,false_positive,source_traceable,attorney_review_required,comments
-EVAL-COM-001,cn-commercial-legal,contract-review,虚构云帆科技服务合同,虚构评测律师A,2026-06-09,重大风险识别,4,true,false,false,true,true,识别了责任上限和自动续约风险
-EVAL-COM-002,cn-commercial-legal,nda-triage,虚构双向NDA,虚构评测律师A,2026-06-09,是否正确触发升级,5,true,false,false,true,true,夹带竞业限制并正确标红
-EVAL-MA-001,cn-corporate-legal,issue-extraction,虚构星河智能设备投资项目,虚构评测律师B,2026-06-09,问题提取完整性,4,true,false,true,true,true,劳动和资质问题完整但一个低风险事项略误报
-EVAL-MA-002,cn-corporate-legal,closing-checklist,虚构星河智能设备投资项目,虚构评测律师B,2026-06-09,交割条件完整性,4,true,false,false,true,true,交割前和交割后事项清楚
-EVAL-LIT-001,cn-litigation-legal,chronology-builder,虚构青石贸易买卖合同纠纷,虚构评测律师C,2026-06-09,事实时间线完整性,5,true,false,false,true,true,关键日期和证据来源完整
-EVAL-LIT-002,cn-litigation-legal,evidence-index,虚构青石贸易买卖合同纠纷,虚构评测律师C,2026-06-09,三性提示准确性,4,true,false,false,true,true,真实性和原件情况提示清楚
+eval_id,plugin,skill,sample_case,evaluator,date,dimension,score,major_issue_found,missed_issue,false_positive,source_traceable,attorney_review_required,comments,pass_fail,reviewer_action
+EVAL-COM-001,cn-commercial-legal,contract-review,虚构云帆科技服务合同,评测律师A,2026-06-12,重大风险识别,4,true,false,false,true,true,识别数据和责任上限风险,pass,补充谈判语言后可进入下一轮
+EVAL-COM-002,cn-commercial-legal,deviation-memo,虚构云帆科技服务合同,评测律师A,2026-06-12,偏离清单可用性,4,false,false,false,true,true,建议增加客户商务决策字段,pass,已纳入 alpha 修复
+EVAL-COR-001,cn-corporate-legal,issue-extraction,虚构星河智能资料室,评测律师B,2026-06-12,重大性判断,4,true,false,false,true,true,需连接估值赔偿和交割条件,pass,已纳入 alpha 修复
+EVAL-COR-002,cn-corporate-legal,closing-checklist,虚构星河智能资料室,评测律师B,2026-06-12,交割条件完整性,4,false,false,false,true,true,交割前和交割后事项可区分,pass,保留现有结构
+EVAL-LIT-001,cn-litigation-legal,chronology-builder,虚构青石贸易纠纷,评测律师C,2026-06-12,事实时间线完整性,4,false,false,false,true,true,需区分全量和关键事件,pass,已纳入 alpha 修复
+EVAL-LIT-002,cn-litigation-legal,matter-intake,虚构青石贸易纠纷,评测律师C,2026-06-12,期限和升级事项,4,true,false,false,true,true,期限和保全需更突出,pass,已纳入 alpha 修复

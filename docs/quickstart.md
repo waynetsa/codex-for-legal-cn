@@ -67,3 +67,13 @@ python scripts/validate_no_private_materials.py
 3. 诉讼案件：读取 `acceptance/litigation/input/`，对照 `acceptance/litigation/output/`。
 
 试跑后填写对应 `eval/*-eval-sheet.csv`，并把问题写入 `acceptance/summary/improvement-backlog.md`。不要使用真实客户资料替换这些样例。
+
+## 最短试用路径
+
+1. 打开 `acceptance/README.md`，选择合同、并购或诉讼路径。
+2. 先阅读对应 `input/` 下的虚构材料和 practice profile。
+3. 按 `acceptance/runbook.md` 的顺序调用对应 skill。
+4. 对照 `acceptance/*/output/` 查看律师审阅用草稿的参考格式。
+5. 使用 `acceptance/*/eval/` 和 `acceptance/summary/regression-after-alpha-fixes.md` 判断输出是否达到 alpha 可试用标准。
+
+真实项目试用前，应在私有环境中准备脱敏材料，并由负责律师确认模板、profile 和复核规则。

@@ -17,3 +17,30 @@
 - 问题发现。
 
 本轮目标是验证 `v0.1.0-alpha` 的真实可用性。所有输出均为“律师审阅用草稿”，不得作为正式法律意见、客户交付件、诉讼提交材料或交易文件直接使用。
+
+## 文件索引
+
+### 合同审查路径
+
+- 输入：`acceptance/commercial/input/fictional-service-contract.md`
+- practice profile：`acceptance/commercial/input/fictional-commercial-practice-profile.md`
+- 输出：`acceptance/commercial/output/`
+- 评测：`acceptance/commercial/eval/`
+
+### 并购尽调路径
+
+- 输入：`acceptance/corporate/input/fictional-dataroom-index.md`
+- practice profile：`acceptance/corporate/input/fictional-ma-practice-profile.md`
+- 输出：`acceptance/corporate/output/`
+- 评测：`acceptance/corporate/eval/`
+
+### 诉讼案件路径
+
+- 输入：`acceptance/litigation/input/fictional-sales-dispute-fact-pack.md`
+- practice profile：`acceptance/litigation/input/fictional-litigation-practice-profile.md`
+- 输出：`acceptance/litigation/output/`
+- 评测：`acceptance/litigation/eval/`
+
+### 回归记录
+
+- 当前 alpha 可用性修复回归：`acceptance/summary/regression-after-alpha-fixes.md`

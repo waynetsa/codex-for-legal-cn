@@ -89,3 +89,7 @@ python scripts/validate_no_private_materials.py
 - 诉讼案件路径。
 
 这些样例只使用虚构材料，用于验证三个核心插件能否生成可编辑的“律师审阅用草稿”。后续改进应优先参考 `acceptance/summary/improvement-backlog.md`。
+
+## Alpha 可用性修复状态
+
+三个核心插件已经完成端到端验收，验收材料位于 `acceptance/`。当前进入 `v0.1.1-alpha` 候选阶段，重点修复合同谈判语言、并购交易文件影响映射、诉讼期限和保全提示等 P1/P2 可用性问题。
