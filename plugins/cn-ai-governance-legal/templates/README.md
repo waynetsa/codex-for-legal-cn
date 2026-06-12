@@ -1,12 +1,13 @@
-# Templates
+# cn-ai-governance-legal Templates
 
-> 律师审阅用草稿。`cn-ai-governance-legal` 当前仅为第二阶段 scaffold，不代表 alpha 可试用。
+> 律师审阅用草稿。本目录只保存模板，不保存真实客户、员工、系统、供应商合同或业务数据。
 
-本目录用于后续存放 `中国企业 AI 治理法律工作流` 的 templates。当前只保留占位说明，避免在 scaffold 阶段过早写入未经验证的业务细节。
+本插件 MVP 模板包括：
 
-## 后续补充方向
+- `ai-use-policy-outline.md`：AI 使用制度或内部指引提纲。
+- `ai-tool-intake-form.md`：AI 工具或项目准入初筛表。
+- `ai-risk-assessment-table.md`：AI 使用场景风险评估表。
+- `ai-vendor-contract-review-memo.md`：AI 供应商合同审查备忘录。
+- `ai-governance-gap-checklist.md`：AI 治理差距检查和整改路线图。
 
-- 围绕以下事项逐步补充：企业 AI 使用治理、AI 工具使用规范、AI 供应商条款审查、AI 风险分级、AI 项目合规评估、律所内部 AI 使用规则。
-- 所有内容必须使用虚构或脱敏样例。
-- 法律依据、监管规则、案例和官方口径必须由律师核验。
-- 不得提交真实客户资料、个人信息、商业秘密、密钥或私有系统配置。
+所有模板均需由律师、法务、合规或负责合伙人复核后，才能用于正式制度、客户交付或供应商谈判。

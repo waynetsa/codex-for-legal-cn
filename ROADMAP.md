@@ -92,3 +92,11 @@
 - 验证脚本全部通过。
 
 满足以上条件后，可发布 `v0.2.0-alpha`。其他第二阶段插件仍保持 scaffold。
+## 当前阶段：AI Governance MVP
+
+- 已完成：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal` alpha 可试用。
+- 已完成：`cn-ip-legal` MVP、端到端 acceptance、alpha 修复，达到 alpha 可试用。
+- 本轮完成：`cn-ai-governance-legal` 从 scaffold 升级为 MVP。
+- 仍为 scaffold：`cn-privacy-legal`、`cn-employment-legal`、`cn-regulatory-legal`。
+
+下一步建议先为 `cn-ai-governance-legal` 增加虚构企业 AI 工具上线端到端验收包，再根据验收 backlog 做 alpha 修复；不要同时深挖多个第二阶段插件。

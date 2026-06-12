@@ -1,12 +1,12 @@
-# References
+# cn-ai-governance-legal References
 
-> 律师审阅用草稿。`cn-ai-governance-legal` 当前仅为第二阶段 scaffold，不代表 alpha 可试用。
+> 律师审阅用草稿。本目录提供 AI 治理流程提醒和检查清单，不提供法律意见。
 
-本目录用于后续存放 `中国企业 AI 治理法律工作流` 的 references。当前只保留占位说明，避免在 scaffold 阶段过早写入未经验证的业务细节。
+参考文件：
 
-## 后续补充方向
+- `china-ai-governance-workflow-checklist.md`：中国法语境下 AI 治理工作流检查清单。
+- `ai-use-scenario-risk-taxonomy.md`：AI 使用场景风险分类。
+- `ai-vendor-review-checklist.md`：AI 供应商审查清单。
+- `law-firm-internal-ai-use-checklist.md`：律所内部 AI 使用检查清单。
 
-- 围绕以下事项逐步补充：企业 AI 使用治理、AI 工具使用规范、AI 供应商条款审查、AI 风险分级、AI 项目合规评估、律所内部 AI 使用规则。
-- 所有内容必须使用虚构或脱敏样例。
-- 法律依据、监管规则、案例和官方口径必须由律师核验。
-- 不得提交真实客户资料、个人信息、商业秘密、密钥或私有系统配置。
+所有法律依据、监管要求和行业规则均需“待律师核验”。不得虚构具体法规条文编号、案例名称、监管结论或主管机关口径。

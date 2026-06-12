@@ -1,7 +1,7 @@
 {
   "name": "cn-ai-governance-legal",
-  "version": "0.1.0",
-  "description": "企业 AI 使用治理、AI 供应商条款和 AI 风险分级的 Codex 骨架插件。",
+  "version": "0.2.0",
+  "description": "中国律所和企业客户 AI 治理法律工作流插件，用于 AI 使用制度、工具准入、风险评估、供应商合同审查和治理差距检查的律师审阅用草稿。",
   "author": "waynetsa",
   "license": "Apache-2.0",
   "repository": "https://github.com/waynetsa/codex-for-legal-cn",
@@ -10,20 +10,24 @@
     "legal",
     "china",
     "law-firm",
-    "workflow",
-    "scaffold"
+    "ai-governance",
+    "compliance",
+    "workflow"
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "中国企业 AI 治理法律工作流",
-    "shortDescription": "企业 AI 使用治理、AI 供应商条款和 AI 风险分级的 Codex 骨架插件。",
-    "longDescription": "面向企业 AI 使用治理、AI 工具使用规范、AI 供应商条款审查、AI 风险分级、AI 项目合规评估和律所内部 AI 使用规则。本阶段仅为 scaffold，不代表 alpha 可试用。",
+    "displayName": "中国 AI 治理法律工作流",
+    "shortDescription": "用于 AI 使用制度、工具准入、风险评估、供应商合同审查和治理差距检查的 Codex MVP 插件。",
+    "longDescription": "面向中国律所内部 AI 使用治理和企业客户 AI 项目治理，支持生成 AI 使用制度草稿、AI 工具准入初筛、AI 使用场景风险评估、AI 供应商合同审查和 AI 治理差距清单。所有输出均为律师审阅用草稿，不提供法律意见，不接入真实系统。",
     "category": "Legal Workflow / AI Governance",
     "capabilities": [
       "cold-start interview for AI governance practice profile",
-      "AI governance workflow placeholder",
-      "AI vendor and internal use policy planning"
+      "AI use policy draft builder",
+      "AI tool intake and approval triage",
+      "AI use scenario risk assessment",
+      "AI vendor contract review memo",
+      "AI governance gap checklist and roadmap"
     ],
-    "defaultPrompt": "请使用 cn-ai-governance-legal 的 cold-start-interview 技能，生成企业 AI 治理团队的 practice profile 草稿。本插件目前仅为 scaffold。"
+    "defaultPrompt": "请使用 cn-ai-governance-legal 的 ai-tool-intake 技能，对这个虚构 AI 工具上线场景做准入初筛，输出律师审阅用草稿、风险等级、待补材料、审批角色和升级事项。"
   }
 }
