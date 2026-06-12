@@ -118,3 +118,12 @@ IP 验收结果位于 `acceptance/ip/`：
 - `summary/ip-improvement-backlog.md`：P0/P1/P2 后续修复项。
 
 若 P0 为 0 且 P1 可控，应先开 IP alpha 修复 PR，再考虑发布 `v0.2.0-alpha`。
+
+## 如何读取 IP Regression 结果
+
+IP alpha 修复后的回归记录位于 `acceptance/ip/summary/ip-regression-after-alpha-fixes.md`。评测负责人应重点查看：
+
+- P1 是否全部修复。
+- 剩余 P2 是否只影响体验，不影响 alpha 试用。
+- 是否仍保持“不作最终法律结论”和“待律师核验”。
+- 是否仍无真实客户资料、真实证据或密钥。

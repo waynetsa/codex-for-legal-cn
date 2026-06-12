@@ -123,3 +123,7 @@ python scripts/validate_no_private_materials.py
 `cn-ip-legal` MVP 已新增虚构端到端验收入口：`acceptance/ip/`。该目录包含虚构内容 IP 争议事实包、虚构 IP practice profile、虚构授权合同摘要、六个 MVP skill 输出、评测表、findings、summary 和 improvement backlog。
 
 本验收不包含真实客户、真实案件、真实作品、真实合同、真实权利文件、真实证据或真实个人信息。`cn-ip-legal` 当前状态为 MVP 已验收，是否进入 alpha 可试用需根据 IP backlog 完成下一轮修复后再判断。
+
+## cn-ip-legal v0.2.0-alpha 候选状态
+
+`cn-ip-legal` 已完成 MVP、虚构端到端 acceptance 和 alpha 修复回归。当前 P0 为 0，P1 已清零，剩余 P2 均为不影响 alpha 试用的体验优化项。若主线验证通过，可作为 `v0.2.0-alpha` 候选发布。

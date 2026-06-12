@@ -36,3 +36,17 @@
 - 输出必须能被律师继续编辑。
 - 不得出现真实客户资料。
 - 不得生成正式法律意见。
+
+## 快速导航
+
+| 类型 | 文件 |
+| --- | --- |
+| 输入事实包 | `input/fictional-content-ip-dispute-fact-pack.md` |
+| 虚构 profile | `input/fictional-ip-practice-profile.md` |
+| 虚构授权摘要 | `input/fictional-ip-license-summary.md` |
+| 输出结果 | `output/` |
+| 评测表 | `eval/ip-eval-sheet.csv` |
+| findings | `eval/ip-findings.md` |
+| summary | `summary/ip-e2e-summary.md` |
+| backlog | `summary/ip-improvement-backlog.md` |
+| regression | `summary/ip-regression-after-alpha-fixes.md` |

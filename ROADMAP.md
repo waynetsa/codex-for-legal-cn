@@ -80,3 +80,15 @@
 `cn-ip-legal` 已完成 MVP，并新增虚构端到端验收包。下一步应根据 `acceptance/ip/summary/ip-improvement-backlog.md` 判断是否先做 IP alpha 修复，再发布 `v0.2.0-alpha`。
 
 当前不建议马上开发其他第二阶段插件 MVP。
+
+## v0.2.0-alpha Candidate
+
+发布候选条件：
+
+- PR #7 已合并。
+- IP alpha 修复 PR 已合并。
+- `cn-ip-legal` 完成 MVP、acceptance、alpha 修复和 regression。
+- P0 为 0，P1 为 0，P2 仅为可接受体验优化项。
+- 验证脚本全部通过。
+
+满足以上条件后，可发布 `v0.2.0-alpha`。其他第二阶段插件仍保持 scaffold。
