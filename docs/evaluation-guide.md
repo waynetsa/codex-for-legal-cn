@@ -107,3 +107,14 @@
 - 证据保全清单是否包含证明目的、形成时间、原始载体、真实性、合法性、关联性和待补强事项。
 - 下架/函件提纲是否明确不得自动发送或直接作为正式律师函、投诉材料提交。
 - 高风险、红旗风险、证据灭失风险和对外发送动作是否触发升级。
+
+## 如何读取 IP Acceptance 结果
+
+IP 验收结果位于 `acceptance/ip/`：
+
+- `eval/ip-eval-sheet.csv`：逐项评分。
+- `eval/ip-findings.md`：通过项、失败项和需修复方向。
+- `summary/ip-e2e-summary.md`：是否达到 IP MVP acceptance 标准。
+- `summary/ip-improvement-backlog.md`：P0/P1/P2 后续修复项。
+
+若 P0 为 0 且 P1 可控，应先开 IP alpha 修复 PR，再考虑发布 `v0.2.0-alpha`。

@@ -1,0 +1,12 @@
+eval_id,plugin,skill,sample_case,evaluator,date,dimension,score,major_issue_found,missed_issue,false_positive,source_traceable,attorney_review_required,lawyer_editable,skill_fix_needed,template_fix_needed,comments,pass_fail,reviewer_action
+IP-EVAL-001,cn-ip-legal,cold-start-interview,虚构青岚纪内容IP争议,虚构评测律师,2026-06-12,团队画像完整性,5,false,false,false,true,true,true,false,false,团队画像和复核节点完整,pass,保留
+IP-EVAL-002,cn-ip-legal,rights-chain-review,虚构青岚纪内容IP争议,虚构评测律师,2026-06-12,权属链条完整性,4,true,false,false,true,true,true,false,true,字段完整但可增加链条图视图,pass,进入P2
+IP-EVAL-003,cn-ip-legal,rights-chain-review,虚构青岚纪内容IP争议,虚构评测律师,2026-06-12,权利缺口识别,5,true,false,false,true,true,true,false,false,识别角色音乐字体纹理缺口,pass,保留
+IP-EVAL-004,cn-ip-legal,infringement-triage,虚构青岚纪内容IP争议,虚构评测律师,2026-06-12,侵权初筛结构,4,false,false,false,true,true,true,true,false,未明确比对材料优先级,pass,进入P1
+IP-EVAL-005,cn-ip-legal,infringement-triage,虚构青岚纪内容IP争议,虚构评测律师,2026-06-12,相似点和差异点表达,4,false,false,false,true,true,true,false,false,表达清楚且未作最终结论,pass,保留
+IP-EVAL-006,cn-ip-legal,evidence-preservation-checklist,虚构青岚纪内容IP争议,虚构评测律师,2026-06-12,证据保全清单可用性,5,true,false,false,true,true,true,false,false,覆盖三性和待补强事项,pass,保留
+IP-EVAL-007,cn-ip-legal,ip-license-review,虚构IP授权合同摘要,虚构评测律师,2026-06-12,授权合同风险识别,4,true,false,false,true,true,true,true,false,红旗条款识别清楚但可加强替代表述颗粒度,pass,进入P1
+IP-EVAL-008,cn-ip-legal,takedown-and-demand-letter-outline,虚构青岚纪内容IP争议,虚构评测律师,2026-06-12,平台投诉或律师函提纲可用性,4,true,false,false,true,true,true,false,true,提纲可用但平台材料清单可更细,pass,进入P1
+IP-EVAL-009,cn-ip-legal,all,虚构青岚纪内容IP争议,虚构评测律师,2026-06-12,升级事项识别,5,true,false,false,true,true,true,false,false,高风险和红旗均进入升级,pass,保留
+IP-EVAL-010,cn-ip-legal,all,虚构青岚纪内容IP争议,虚构评测律师,2026-06-12,来源和法律依据核验提示,5,false,false,false,true,true,true,false,false,均标注待律师核验,pass,保留
+IP-EVAL-011,cn-ip-legal,all,虚构青岚纪内容IP争议,虚构评测律师,2026-06-12,输出可编辑性,4,false,false,false,true,true,true,false,true,部分表格较宽,pass,进入P2
