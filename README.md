@@ -117,3 +117,9 @@ python scripts/validate_no_private_materials.py
 - 平台投诉、下架通知、律师函或沟通函内部提纲。
 
 `cn-ip-legal` 仍不提供法律意见，所有输出均为“律师审阅用草稿”。它尚未完成端到端 acceptance，后续将使用虚构内容 IP 争议包进行验收。其他第二阶段插件仍保持 scaffold 状态。
+
+## cn-ip-legal 端到端验收
+
+`cn-ip-legal` MVP 已新增虚构端到端验收入口：`acceptance/ip/`。该目录包含虚构内容 IP 争议事实包、虚构 IP practice profile、虚构授权合同摘要、六个 MVP skill 输出、评测表、findings、summary 和 improvement backlog。
+
+本验收不包含真实客户、真实案件、真实作品、真实合同、真实权利文件、真实证据或真实个人信息。`cn-ip-legal` 当前状态为 MVP 已验收，是否进入 alpha 可试用需根据 IP backlog 完成下一轮修复后再判断。

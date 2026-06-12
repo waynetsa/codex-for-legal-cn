@@ -51,3 +51,7 @@ Evals 用于评估输出是否可被律师继续使用，包括遗漏率、误�
 ## Optional Connectors
 
 Connectors 是未来私有部署中的 MCP 接入层，负责在授权范围内读取或写入文档系统、合同系统、案件系统、法研数据库、资料室或协作工具。本公开仓库只提供占位文档和模板，不包含真实连接器、真实 API 地址或密钥。
+
+## cn-ip-legal Acceptance 状态
+
+`cn-ip-legal` 当前状态为 MVP + acceptance under review。它已有虚构端到端验收包，但尚未根据 IP backlog 完成 alpha 修复。其他第二阶段插件仍为 scaffold。

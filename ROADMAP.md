@@ -74,3 +74,9 @@
 - ip-license-review 是否能输出可编辑条款审查表。
 - evidence-preservation-checklist 是否覆盖证据三性和保全提示。
 - takedown-and-demand-letter-outline 是否明确不得直接发送。
+
+## cn-ip-legal Acceptance
+
+`cn-ip-legal` 已完成 MVP，并新增虚构端到端验收包。下一步应根据 `acceptance/ip/summary/ip-improvement-backlog.md` 判断是否先做 IP alpha 修复，再发布 `v0.2.0-alpha`。
+
+当前不建议马上开发其他第二阶段插件 MVP。

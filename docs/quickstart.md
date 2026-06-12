@@ -93,3 +93,13 @@ python scripts/validate_no_private_materials.py
 - `takedown-and-demand-letter-outline`：生成下架、投诉或函件内部提纲。
 
 所有输出均应标注“律师审阅用草稿”，对外发送、平台提交或诉讼使用前必须由负责律师复核。
+
+## 使用虚构 IP 样例试跑
+
+1. 打开 `acceptance/ip/input/fictional-content-ip-dispute-fact-pack.md`。
+2. 读取 `acceptance/ip/input/fictional-ip-practice-profile.md`。
+3. 按 `acceptance/ip/planned-e2e-scenarios.md` 的顺序试跑六个 IP skills。
+4. 对照 `acceptance/ip/output/` 查看律师审阅用草稿。
+5. 使用 `acceptance/ip/eval/ip-eval-sheet.csv` 和 `acceptance/ip/eval/ip-findings.md` 评估输出质量。
+
+真实项目不得使用公开仓库材料承载客户资料或证据。
