@@ -183,3 +183,9 @@ python scripts/validate_no_private_materials.py
 - `cn-regulatory-legal`：MVP，尚未完成端到端 acceptance。
 
 后续入口：`acceptance/regulatory/`。
+
+## cn-regulatory-legal 端到端验收入口
+
+`cn-regulatory-legal` 已完成 MVP，本轮新增虚构监管问询和整改端到端验收包。入口见 `acceptance/regulatory/`，包括虚构输入材料、律师审阅用草稿输出、评测表、验收发现、总结和 improvement backlog。
+
+当前不建议直接发布 `v0.6.0-alpha`；下一步应先根据 regulatory backlog 做 alpha 修复。

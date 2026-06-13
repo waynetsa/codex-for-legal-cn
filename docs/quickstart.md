@@ -202,3 +202,10 @@ python scripts/validate_no_private_materials.py
 2. 根据事项选择监管动态影响分析、合规义务清单、监管问询响应提纲、行政处罚风险初筛、整改计划或管理层简报。
 3. 所有法律依据、监管口径、期限和事实来源均写“待律师核验”。
 4. 不得将输出直接作为正式监管回复、正式整改报告、正式对外公告或正式合规结论。
+
+## 使用虚构 Regulatory 样例试跑
+
+1. 读取 `acceptance/regulatory/input/` 中的虚构监管问询、监管动态、practice profile 和整改背景。
+2. 按 cold-start、监管动态影响分析、合规义务清单、监管问询响应提纲、行政处罚风险初筛、整改计划、管理层简报顺序试跑。
+3. 对照 `acceptance/regulatory/output/` 检查输出格式。
+4. 对照 `acceptance/regulatory/eval/` 和 `acceptance/regulatory/summary/` 判断是否达到 MVP acceptance 标准。

@@ -112,3 +112,7 @@ Connectors 是未来私有部署中的 MCP 接入层，负责在授权范围内�
 - `cn-regulatory-legal`：MVP，尚未完成端到端 acceptance。
 
 `cn-regulatory-legal` 不接入真实 MCP 或真实监管数据库；所有输出仍为律师审阅用草稿，不构成法律意见。
+
+## Regulatory Acceptance 状态
+
+`cn-regulatory-legal` 当前状态为 MVP + acceptance under review。七个既有插件保持 alpha 可试用；regulatory 尚需根据 acceptance backlog 完成 alpha 修复后，再考虑发布。
