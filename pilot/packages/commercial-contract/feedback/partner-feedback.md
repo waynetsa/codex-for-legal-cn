@@ -29,3 +29,9 @@
 - risk_identification_score: 5
 - editing_required_level: medium
 - go_no_go_recommendation: go
+
+## v1 preflight 修复后状态
+
+- P2 字段细化：已修复，合同输出已补 `clause_id`、`issue_status`、`responsible_role`、`suggested_timing`、`client_decision_required`、`escalation_required`。
+- P3 风格问题：已缓解，已补充内部草稿和不得直接对外使用提醒。
+- 结论：go，仅限受控脱敏试点；不是 production-go，不接真实 MCP，不将真实资料放入公开仓库。

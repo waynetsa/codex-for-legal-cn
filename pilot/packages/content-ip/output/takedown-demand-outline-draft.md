@@ -23,3 +23,13 @@
 ## 升级事项
 
 - 投诉或发函前必须由律师复核权属链条、相似性、证据保全和客户商业目标。
+
+## v1 preflight 字段补充
+
+| evidence_id | rights_item_id | document_status | responsible_role | platform_action_status | lawyer_review_required |
+| --- | --- | --- | --- | --- | --- |
+| IP-E08 | IP-RC-角色-02 | 投诉附件待核验 | 主办律师 | 草稿准备中，不提交 | 是 |
+| IP-E10 | IP-RC-角色-02 | 商业使用证据待补强 | 初级律师 | 待补材料 | 是 |
+| IP-E03 | IP-RC-角色-02 | 授权合同范围待核验 | 合伙人 / 主办律师 | 决定是否投诉前复核 | 是 |
+
+补充说明：本提纲只能作为内部准备材料，不得直接作为平台投诉、律师函或公开声明。

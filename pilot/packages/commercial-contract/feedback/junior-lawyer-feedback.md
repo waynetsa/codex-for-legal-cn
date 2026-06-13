@@ -29,3 +29,9 @@
 - risk_identification_score: 4
 - editing_required_level: low
 - go_no_go_recommendation: go
+
+## v1 preflight 修复后状态
+
+- P2 字段细化：已修复，续约输出增加责任人角色、建议时点和是否升级字段。
+- P3 表格体验：已缓解，后续可继续增加内部提醒负责人字段。
+- 结论：go，仅限受控脱敏试点；不代表可以直接使用真实客户合同。

@@ -1,5 +1,11 @@
 # Audit Issue Backlog
 
+## v1 preflight 修复后状态
+
+本轮根据 pilot feedback 完成最后一轮 v1 preflight 修复：P2 已清零，P3 保留 2 项为 v1 后体验优化。当前 P0 为 0，P1 为 0，项目达到 v1.0 release candidate。
+
+仍需人工确认 release notes、tag 和 GitHub Release；不得自动发布 v1.0，不得接真实 MCP，不得将真实客户资料放入公开仓库。
+
 ## v1 readiness 修复后状态
 
 本节为 `fix/v1-readiness` 分支追加状态，不删除原始审计问题记录。项目定位仍为公开法律 AI 工作流模板库，不提供法律意见，只产出“律师审阅用草稿”，不得接入真实 MCP、真实生产系统或真实客户资料。

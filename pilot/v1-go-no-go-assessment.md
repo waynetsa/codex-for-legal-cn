@@ -1,5 +1,23 @@
 # v1 Go / No-Go Assessment
 
+## v1 preflight 修复后状态
+
+本轮已完成 v1 preflight 修复。3 个试点包均补充发布候选所需的状态字段和责任分工字段，P2 已清零，P3 保留为 v1 后体验优化。
+
+| 判断项 | 结论 |
+| --- | --- |
+| P0 | 0 |
+| P1 | 0 |
+| P2 | 0 |
+| P3 | 2，保留为 v1 后体验优化 |
+| 受控脱敏试点条件 | 满足 |
+| v1.0 release candidate | 满足，需人工确认 |
+| 生产部署 | 不满足 |
+
+更新后的 go / no-go：`go for v1.0 release candidate, no-go for production deployment`。
+
+含义：可以准备人工确认 v1.0.0 tag 和 release notes；不代表可以接真实 MCP、接生产系统或将真实客户资料放入公开仓库。
+
 ## 当前不是 v1.0 的原因
 
 - 本轮仍为完全虚构材料试点模拟。

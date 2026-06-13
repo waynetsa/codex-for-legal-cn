@@ -29,3 +29,9 @@
 - risk_identification_score: 4
 - editing_required_level: low
 - go_no_go_recommendation: go
+
+## v1 preflight 修复后状态
+
+- P2 补证清单：已缓解，时间线、争点表和状态报告均增加待补证据、责任角色和下一步状态字段。
+- P3 直观性：已缓解，仍可在真实脱敏试点后继续优化显示方式。
+- 结论：go，仅限受控脱敏试点；不得直接作为诉讼或仲裁提交材料。

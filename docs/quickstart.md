@@ -1,5 +1,15 @@
 # Quickstart
 
+## v1.0 候选材料入口
+
+如需判断是否进入 v1.0 发布，请先阅读：
+
+- [v1 preflight report](../pilot/v1-preflight-report.md)
+- [v1.0.0 release notes draft](../release-notes/v1.0.0-draft.md)
+- [pilot feedback summary](../pilot/pilot-feedback-summary.md)
+
+不要在公开仓库中试跑真实客户资料，也不要连接真实 MCP 或生产系统。
+
 ## 试点前置阅读
 
 如果准备用本项目做律所内部试点，请先阅读：

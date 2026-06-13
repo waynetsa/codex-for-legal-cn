@@ -29,3 +29,9 @@
 - risk_identification_score: 4
 - editing_required_level: medium
 - go_no_go_recommendation: go
+
+## v1 preflight 修复后状态
+
+- P2 证据字段：已修复，证据目录补充 `evidence_id`、关联争点、证据状态、责任人角色和下一步状态。
+- P3 表格体验：已缓解，正式证据目录仍需律师另行制作。
+- 结论：go，仅限受控脱敏试点；真实案件材料不得进入公开仓库。

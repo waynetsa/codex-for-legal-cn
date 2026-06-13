@@ -1,5 +1,17 @@
 # Evaluation Guide
 
+## v1 preflight 结果
+
+受控虚构试点和 preflight 修复后，P0 为 0，P1 为 0，P2 已清零，P3 保留为 v1 后体验优化。平均可用性评分为 4.1/5，平均风险识别评分为 4.2/5。
+
+读取顺序：
+
+1. [pilot feedback summary](../pilot/pilot-feedback-summary.md)
+2. [v1 go/no-go assessment](../pilot/v1-go-no-go-assessment.md)
+3. [v1 preflight report](../pilot/v1-preflight-report.md)
+
+该结果支持 v1.0 release candidate，但不支持生产部署或真实 MCP 接入。
+
 ## v1 readiness 试点评测
 
 v1 前评测应从 acceptance 扩展到受控脱敏试点。试点律师或负责人应使用 [试点反馈表](pilot-feedback-form.md) 记录插件、skill、材料类型、节省时间、可用性评分、风险识别评分、漏报、误报、编辑量、保密问题和 go/no-go 建议。

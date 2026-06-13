@@ -28,3 +28,13 @@
 ## 升级事项
 
 - 权利链条缺口和商业使用持续传播并存，应升级合伙人和客户负责人。
+
+## v1 preflight 字段补充
+
+| evidence_id | rights_item_id | document_status | responsible_role | platform_action_status | lawyer_review_required |
+| --- | --- | --- | --- | --- | --- |
+| IP-E08 | IP-RC-角色-02 | 权属范围待核验 | 主办律师 | 准备投诉草稿但不提交 | 是 |
+| IP-E10 | IP-RC-角色-02 | 商业使用证据待保全 | 初级律师 | 待证据保全 | 是 |
+| IP-E12 | IP-RC-项目-01 | 上线记录待核验 | 主办律师 | 作为背景材料待确认 | 是 |
+
+补充说明：侵权初筛不作最终侵权结论，平台动作须经律师和客户负责人复核。

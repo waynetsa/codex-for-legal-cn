@@ -29,3 +29,9 @@
 - risk_identification_score: 4
 - editing_required_level: medium
 - go_no_go_recommendation: go
+
+## v1 preflight 修复后状态
+
+- P2 字段细化：已修复，偏离备忘增加条款编号、状态、责任人角色、建议时点和客户决策字段。
+- P3 输出风格：已缓解，明确偏离备忘仅为内部谈判准备底稿。
+- 结论：go，仅限受控脱敏试点；正式客户交付前仍需律师重写和复核。

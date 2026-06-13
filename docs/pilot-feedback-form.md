@@ -1,5 +1,9 @@
 # Pilot Feedback Form
 
+## v1 preflight 评分说明
+
+试点评分用于判断 workflow 是否适合受控脱敏试点，不代表生产可用。`go` 仅表示可进入受控脱敏试点或 release candidate；不表示可以接真实 MCP、接生产系统或使用未脱敏真实客户资料。
+
 复制以下字段用于每次受控脱敏试点评测。
 
 | Field | Value |
