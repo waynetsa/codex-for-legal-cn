@@ -209,3 +209,7 @@ python scripts/validate_no_private_materials.py
 2. 按 cold-start、监管动态影响分析、合规义务清单、监管问询响应提纲、行政处罚风险初筛、整改计划、管理层简报顺序试跑。
 3. 对照 `acceptance/regulatory/output/` 检查输出格式。
 4. 对照 `acceptance/regulatory/eval/` 和 `acceptance/regulatory/summary/` 判断是否达到 MVP acceptance 标准。
+
+## Regulatory alpha 回归结果
+
+`cn-regulatory-legal` alpha 修复后的回归结论见 `acceptance/regulatory/summary/regulatory-regression-after-alpha-fixes.md`。试用时仍应只使用虚构或脱敏材料；监管回复、整改承诺、对外披露和管理层决策材料必须经律师、合规负责人和管理层复核后方可使用。
