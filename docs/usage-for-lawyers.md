@@ -1,5 +1,19 @@
 # 律师使用指南
 
+## 受控脱敏试点流程
+
+律师参与试点前，应先阅读 [私有试点指南](private-pilot-guide.md)、[数据处理与样例脱敏指南](data-handling-and-anonymization-guide.md) 和 [公开仓库与私有部署边界](public-vs-private-deployment-boundary.md)。
+
+建议流程：
+
+1. 使用虚构材料或严格脱敏材料准备试点包。
+2. 先运行对应插件的 `cold-start-interview`，形成团队口径草稿。
+3. 使用 1 到 2 个具体 skill 生成“律师审阅用草稿”。
+4. 由律师记录漏报、误报、编辑量和不可直接使用原因。
+5. 使用 [试点反馈表](pilot-feedback-form.md) 汇总评分。
+
+不得把输出直接作为正式法律意见、正式合同文本、正式诉讼材料、正式监管回复、正式制度或正式对外文件使用。
+
 ## 从 cold-start 开始
 
 每个团队第一次使用时，先运行对应插件的 `cold-start-interview`。请把团队名称、客户类型、常见合同或案件类型、风险偏好、不可让步事项、升级规则和复核人讲清楚。Codex 生成的 `practice-profile.md` 只是律师审阅用草稿，负责律师确认后才能作为后续技能的工作口径。

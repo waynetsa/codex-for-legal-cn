@@ -1,5 +1,16 @@
 # Pilot Readiness Checklist
 
+## v1 readiness 修复后补充
+
+本清单现在应与以下文档配套使用：
+
+- [私有试点指南](../docs/private-pilot-guide.md)
+- [数据处理与样例脱敏指南](../docs/data-handling-and-anonymization-guide.md)
+- [公开仓库与私有部署边界](../docs/public-vs-private-deployment-boundary.md)
+- [试点反馈表](../docs/pilot-feedback-form.md)
+
+试点只能使用虚构材料、严格脱敏材料或经授权的私有环境材料。真实客户资料、真实案件材料、真实合同、真实个人信息、真实监管材料和密钥不得进入公开仓库。当前建议进入受控脱敏试点候选，不建议直接进入生产部署。
+
 ## 试点目标
 
 验证 8 个 alpha 插件能否在脱敏材料、律师复核和受控环境下提高律师草稿整理效率，而不是验证 AI 是否能独立提供法律意见。

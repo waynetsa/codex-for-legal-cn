@@ -1,5 +1,15 @@
 # Safety and Confidentiality
 
+## v1 readiness 安全边界
+
+试点前请阅读：
+
+- [数据处理与样例脱敏指南](data-handling-and-anonymization-guide.md)
+- [公开仓库与私有部署边界](public-vs-private-deployment-boundary.md)
+- [私有试点指南](private-pilot-guide.md)
+
+公开仓库仍不得保存真实客户资料、真实案件材料、真实合同、真实个人信息、真实监管材料、真实员工信息、真实交易材料、密钥、token、API key、Cookie 或私有系统配置。当前项目仍不接入真实 MCP 或生产系统。
+
 Codex for Legal CN 是法律工作流模板项目，不提供法律意见。所有输出必须作为“律师审阅用草稿”处理。
 
 ## 公开仓库边界

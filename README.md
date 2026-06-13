@@ -1,5 +1,19 @@
 # Codex for Legal CN
 
+## v1 readiness 修复
+
+`v0.6.0-alpha` 之后，项目已补齐 v1 readiness 试点准备材料，进入“受控脱敏试点候选状态”。这不是 v1.0 正式发布，也不表示可以把真实客户资料放入公开仓库。
+
+试点前请先阅读：
+
+- [私有试点指南](docs/private-pilot-guide.md)
+- [数据处理与样例脱敏指南](docs/data-handling-and-anonymization-guide.md)
+- [公开仓库与私有部署边界](docs/public-vs-private-deployment-boundary.md)
+- [试点反馈表](docs/pilot-feedback-form.md)
+- [v1 readiness review](audit/v1-readiness-review.md)
+
+当前仍禁止真实 MCP、真实生产系统、真实客户资料、真实案件材料、真实合同、真实个人信息和真实监管材料进入本公开仓库。所有输出仍仅为“律师审阅用草稿”，不构成法律意见。
+
 ## v0.6.0-alpha 后状态
 
 `v0.6.0-alpha` 已使 8 个插件均达到 alpha 可试用状态。项目下一阶段进入整体仓库审计与 `v1.0` 路线规划，不再优先新增法律插件。

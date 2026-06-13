@@ -1,5 +1,16 @@
 # Quickstart
 
+## 试点前置阅读
+
+如果准备用本项目做律所内部试点，请先阅读：
+
+- [私有试点指南](private-pilot-guide.md)
+- [数据处理与样例脱敏指南](data-handling-and-anonymization-guide.md)
+- [公开仓库与私有部署边界](public-vs-private-deployment-boundary.md)
+- [试点反馈表](pilot-feedback-form.md)
+
+试点只应使用虚构材料、严格脱敏材料或经授权的私有环境材料。不得把真实客户资料、真实案件材料、真实合同、真实个人信息、真实监管材料或密钥写入公开仓库。所有输出都需要律师复核后才可继续使用。
+
 ## 试点前阅读
 
 在真实律所脱敏试点前，请先阅读 `audit/pilot-readiness-checklist.md`。试点必须使用虚构或脱敏材料，并由负责律师复核；不得把真实客户资料、真实案件材料、真实合同、真实个人信息或真实监管材料放入公开仓库。
