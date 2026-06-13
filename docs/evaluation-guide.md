@@ -212,3 +212,14 @@ Employment 插件的 alpha 修复回归结果位于 `acceptance/employment/summa
 - 行政处罚风险初筛是否避免作出违法构成、处罚必然性或处罚幅度结论。
 - 整改计划是否拆分短期止血、中期制度修复和长期治理建设。
 - 管理层合规简报是否适合快速阅读并列出 30/60/90 天行动计划。
+
+## 读取 Regulatory Acceptance 结果
+
+Regulatory 验收结果位于：
+
+- `acceptance/regulatory/eval/regulatory-eval-sheet.csv`
+- `acceptance/regulatory/eval/regulatory-findings.md`
+- `acceptance/regulatory/summary/regulatory-e2e-summary.md`
+- `acceptance/regulatory/summary/regulatory-improvement-backlog.md`
+
+评审时重点确认 P0 是否为 0、P1 是否可控、是否仍保持“律师审阅用草稿”和“待律师核验”的安全边界。

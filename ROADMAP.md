@@ -153,3 +153,7 @@
 `cn-regulatory-legal` 已进入 MVP。下一步应为该插件增加虚构监管问询和整改端到端验收包，完成 acceptance findings 和 improvement backlog 后，再决定是否进行 alpha 修复和发布 `v0.6.0-alpha`。
 
 本阶段不接入真实监管数据库，不接入真实 MCP，不使用真实客户或真实监管材料。
+
+## Regulatory Acceptance 后状态
+
+`cn-regulatory-legal` 已完成 MVP，并新增虚构监管问询和整改端到端 acceptance。下一步根据 `acceptance/regulatory/summary/regulatory-improvement-backlog.md` 判断是否先做 alpha 修复；当前建议先修复 P1/P2，再考虑发布 `v0.6.0-alpha`。

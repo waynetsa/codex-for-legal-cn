@@ -1,0 +1,16 @@
+case_id,plugin,skill,dimension,score,major_issue,miss,false_positive,editable,needs_skill_fix,needs_template_fix,notes
+REG-001,cn-regulatory-legal,cold-start-interview,团队画像完整性,5,no,no,no,yes,no,no,服务对象、行业、监管主题、复核规则完整
+REG-002,cn-regulatory-legal,regulatory-change-impact-brief,监管动态影响分析结构,4,no,no,no,yes,no,yes,影响表可用但后续可增加来源核验字段
+REG-003,cn-regulatory-legal,regulatory-change-impact-brief,新增义务和限制识别,4,no,no,no,yes,no,no,能识别新增义务和限制
+REG-004,cn-regulatory-legal,regulatory-change-impact-brief,业务流程影响识别,4,no,no,no,yes,no,no,覆盖合同、产品、营销、数据、资质、内控
+REG-005,cn-regulatory-legal,compliance-obligation-map,合规义务清单完整性,4,no,no,no,yes,no,yes,字段完整但表格较宽
+REG-006,cn-regulatory-legal,compliance-obligation-map,责任部门和台账要求识别,5,no,no,no,yes,no,no,责任部门、台账、缺口明确
+REG-007,cn-regulatory-legal,regulatory-inquiry-response-outline,监管问询响应提纲可用性,5,no,no,no,yes,no,no,未生成正式回复，仅生成内部提纲
+REG-008,cn-regulatory-legal,regulatory-inquiry-response-outline,待补事实和待提交材料识别,5,no,no,no,yes,no,no,待补事实和材料清单明确
+REG-009,cn-regulatory-legal,administrative-penalty-risk-triage,行政处罚风险初筛边界,5,no,no,no,yes,no,no,未作违法成立或处罚幅度结论
+REG-010,cn-regulatory-legal,administrative-penalty-risk-triage,程序节点和期限提示,4,no,no,no,yes,yes,no,期限均待律师核验但程序节点可更细
+REG-011,cn-regulatory-legal,remediation-plan-builder,整改计划可执行性,4,no,no,no,yes,no,yes,三阶段清楚但责任追踪字段可更细
+REG-012,cn-regulatory-legal,management-compliance-briefing,管理层简报可读性,5,no,no,no,yes,no,no,适合管理层快速阅读
+REG-013,cn-regulatory-legal,all,升级事项识别,5,no,no,no,yes,no,no,高风险和红旗风险进入升级事项
+REG-014,cn-regulatory-legal,all,输出可编辑性,4,no,no,no,yes,no,yes,整体可编辑，部分表格后续可拆短
+REG-015,cn-regulatory-legal,all,来源和法律依据核验提示,5,no,no,no,yes,no,no,均标注待律师核验

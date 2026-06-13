@@ -1,0 +1,40 @@
+# cn-regulatory-legal 验收发现
+
+> 律师审阅用草稿；本材料基于虚构验收样例生成，不构成法律意见。
+
+## 通过项
+
+- 完成 cold-start 到 6 个 regulatory MVP skills 的端到端输出。
+- 所有输出均标注“律师审阅用草稿”“本材料基于虚构验收样例生成”“不构成法律意见”。
+- 能识别监管事项、监管主题、行业范围、业务影响、待补事实、待提交材料和升级事项。
+- 监管问询响应仅生成内部提纲，没有生成正式监管回复。
+- 行政处罚风险初筛没有作出违法成立、处罚必然性或处罚幅度结论。
+- 整改计划能区分短期止血、中期制度修复和长期治理建设。
+- 管理层简报能形成一页摘要、决策事项和 30/60/90 天行动计划。
+
+## 失败项
+
+- 未发现阻碍试用的 P0 问题。
+
+## 需要修 skill 的问题
+
+- `administrative-penalty-risk-triage`：程序节点字段可以进一步细化为来函、材料提交、陈述申辩、听证或复核等通用节点，但不得虚构具体程序结论。
+- `remediation-plan-builder`：责任追踪字段可以增加“依赖条件”和“复核频率”，提升整改跟踪可执行性。
+
+## 需要修 template 的问题
+
+- `compliance-obligation-map.csv` 字段较宽，后续可补充 Markdown 分段模板。
+- `regulatory-change-impact-brief.md` 后续可增加“来源核验记录”小表，便于律师记录来源、版本和发布日期。
+
+## 需要修 reference 的问题
+
+- `administrative-penalty-risk-checklist.md` 可增加常见程序节点提醒，但必须继续写“待律师核验”。
+- `remediation-plan-checklist.md` 可增加整改跟踪例会和复核频率提示。
+
+## 是否达到 regulatory MVP acceptance 标准
+
+达到。`cn-regulatory-legal` MVP 能用虚构材料完成监管动态影响分析、合规义务清单、监管问询响应、行政处罚风险初筛、整改计划和管理层合规简报，且安全边界清楚。
+
+## 是否建议进入下一轮 regulatory alpha 修复
+
+建议。P0 为 0，P1 为 3，P2 为 3。建议先做 regulatory alpha 修复，再考虑发布 `v0.6.0-alpha`。
