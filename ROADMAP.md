@@ -4,6 +4,10 @@
 
 v1 readiness 修复后，下一阶段不是新增插件，也不是直接发布 v1.0，而是准备 1 到 3 个虚构或严格脱敏试点包，选择少量律师进行受控试点。
 
+## 受控脱敏试点模拟状态
+
+已新增完全虚构的 `pilot/` 试点包，覆盖 commercial、litigation、IP 三条路径，并模拟合伙人、主办律师 / 资深律师、初级律师反馈。当前结论为 `conditional-go`：等待根据 pilot feedback 做最后一轮 v1 preflight 修复后，再进入真实律所受控脱敏试点；暂不发布 v1.0。
+
 试点前置材料：
 
 - [私有试点指南](docs/private-pilot-guide.md)
