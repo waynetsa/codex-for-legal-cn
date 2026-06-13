@@ -1,5 +1,17 @@
 # Quickstart
 
+## cn-employment-legal MVP 试用提示
+
+`cn-employment-legal` 已进入 MVP，但尚未完成端到端 acceptance。试用时只应使用虚构或脱敏材料，不得放入真实员工姓名、身份证件、手机号、工资、社保、公积金、绩效、病假、孕产、工伤、投诉举报、内部调查、仲裁或诉讼材料。
+
+最短试用路径：
+
+```text
+请使用 cn-employment-legal 的 employment-contract-review 技能，基于团队 practice profile，审查这份虚构劳动合同摘要，输出风险等级、逐条审查意见、客户决策事项和合伙人升级事项。所有输出标注“律师审阅用草稿”。
+```
+
+后续验收计划见 `acceptance/employment/`。
+
 ## cn-privacy-legal MVP 试用提示
 
 `cn-privacy-legal` 已进入 MVP，但尚未完成端到端 acceptance。试用时只应使用虚构或脱敏材料，真实用户数据、员工数据、客户数据、日志、设备信息、定位、身份证件、联系方式、未成年人信息和供应商协议不得放入公开仓库。

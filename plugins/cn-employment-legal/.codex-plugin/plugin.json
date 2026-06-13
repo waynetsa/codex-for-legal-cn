@@ -1,7 +1,7 @@
 {
   "name": "cn-employment-legal",
-  "version": "0.1.0",
-  "description": "劳动合同、员工手册、解除裁员和劳动争议材料整理的 Codex 骨架插件。",
+  "version": "0.2.0",
+  "description": "中国劳动用工法律工作流插件，用于劳动合同审查、员工手册审阅、解除风险初筛、竞业限制审查、外包派遣风险梳理、内部调查计划和劳动争议证据整理。",
   "author": "waynetsa",
   "license": "Apache-2.0",
   "repository": "https://github.com/waynetsa/codex-for-legal-cn",
@@ -9,21 +9,27 @@
     "codex",
     "legal",
     "china",
-    "law-firm",
-    "workflow",
-    "scaffold"
+    "employment",
+    "labor",
+    "hr-compliance",
+    "workflow"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "中国劳动用工法律工作流",
-    "shortDescription": "劳动合同、员工手册、解除裁员和劳动争议材料整理的 Codex 骨架插件。",
-    "longDescription": "面向劳动合同、员工手册、解除与裁员、竞业限制、外包用工、内部调查和劳动争议材料整理。本阶段仅为 scaffold，不代表 alpha 可试用。",
+    "shortDescription": "面向中国大陆劳动用工语境的合同、制度、解除、竞业、外包派遣、内部调查和争议证据整理工作流。",
+    "longDescription": "cn-employment-legal 帮助律师、企业法务和 HR 生成劳动合同审查意见、员工手册审阅备忘录、解除和调整风险初筛表、竞业限制审查意见、外包派遣风险清单、内部调查计划和劳动争议证据包。所有输出均为律师审阅用草稿，不提供法律意见。",
     "category": "Legal Workflow / Employment",
     "capabilities": [
       "cold-start interview for employment practice profile",
-      "employment workflow placeholder",
-      "labor dispute and HR document planning"
+      "employment contract review",
+      "employee handbook review",
+      "termination risk triage",
+      "non-compete review",
+      "outsourcing and dispatch risk check",
+      "workplace investigation planning",
+      "labor dispute evidence pack"
     ],
-    "defaultPrompt": "请使用 cn-employment-legal 的 cold-start-interview 技能，生成劳动用工团队的 practice profile 草稿。本插件目前仅为 scaffold。"
+    "defaultPrompt": "请使用 cn-employment-legal 的 cold-start-interview 技能，生成劳动用工团队的 practice profile 草稿。所有输出必须标注“律师审阅用草稿”，不构成法律意见。"
   }
 }

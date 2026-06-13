@@ -1,12 +1,32 @@
-# Evals
+# cn-employment-legal Evals
 
-> 律师审阅用草稿。`cn-employment-legal` 当前仅为第二阶段 scaffold，不代表 alpha 可试用。
+本目录用于评测劳动用工 MVP 输出质量。评测材料必须虚构或脱敏，不得包含真实客户、真实员工、真实工资、真实社保、真实争议案件或内部调查材料。
 
-本目录用于后续存放 `中国劳动用工法律工作流` 的 evals。当前只保留占位说明，避免在 scaffold 阶段过早写入未经验证的业务细节。
+## 推荐评测技能
 
-## 后续补充方向
+- `employment-contract-review`
+- `employee-handbook-review`
+- `termination-risk-triage`
+- `non-compete-review`
+- `outsourcing-dispatch-risk-check`
+- `workplace-investigation-plan`
+- `labor-dispute-evidence-pack`
 
-- 围绕以下事项逐步补充：劳动合同、员工手册、解除与裁员、竞业限制、外包用工、内部调查、劳动争议材料整理。
-- 所有内容必须使用虚构或脱敏样例。
-- 法律依据、监管规则、案例和官方口径必须由律师核验。
-- 不得提交真实客户资料、个人信息、商业秘密、密钥或私有系统配置。
+## 最低可接受标准
+
+- 输出标注“律师审阅用草稿”。
+- 不生成正式法律意见、解除通知、员工手册、仲裁材料或调查结论。
+- 能区分事实、风险、建议、待确认事项和待律师核验依据。
+- 高风险和红旗风险进入升级事项。
+- 真实员工信息和敏感材料不得出现在样例中。
+
+## 常见失败类型
+
+- 直接判断解除合法或劳动关系成立。
+- 直接生成正式通知或仲裁文书。
+- 漏掉特殊保护人员、民主程序、公示送达、证据三性或期限提示。
+- 未识别竞业、外包派遣、内部调查中的升级事项。
+
+## 反馈方式
+
+评测发现应回写到 `SKILL.md`、templates、references 和 practice profile。低于 3 分的维度应进入 acceptance backlog。
