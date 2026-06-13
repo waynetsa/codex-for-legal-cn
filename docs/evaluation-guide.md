@@ -1,5 +1,11 @@
 # Evaluation Guide
 
+## v1.0 前统一审计
+
+`v0.6.0-alpha` 之后，评测重点从单个插件 acceptance 转为整体仓库 readiness。统一审计入口见 `audit/`，其中 `audit/issue-backlog.md` 记录 P0/P1/P2/P3，`audit/acceptance-coverage-audit.md` 记录 8 条路径覆盖情况，`audit/pilot-readiness-checklist.md` 记录进入真实律所脱敏试点前的最低要求。
+
+进入 `v1.0` 前，应确认关键 P1 为 0，剩余 P2 有明确处理计划，且所有验证脚本通过、无真实资料、无密钥、无私有配置。
+
 ## Employment acceptance 结果读取
 
 `cn-employment-legal` 的虚构端到端验收结果位于 `acceptance/employment/`：

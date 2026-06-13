@@ -1,5 +1,19 @@
 # Roadmap
 
+## v1.0 路线摘要
+
+`v0.6.0-alpha` 之后，路线重点从新增插件转为可控试点 readiness。`v1.0` 应定义为“可控试点版本”，而不是“更多插件版本”。
+
+阶段路径：
+
+1. 仓库质量修复：统一 skill 口径、模板字段、输出长度和 P2 backlog。
+2. 试点工具包：补齐 private pilot guide、data handling guide、sample anonymization guide、practice profile examples、pilot feedback form。
+3. 轻量本地集成：仅设计本地文件夹和本地模板库的只读示例，不接真实外部系统。
+4. 私有化部署设计：权限、日志、审计、matter 隔离、客户隔离、版本管理和模板审批。
+5. v1.0 发布条件：8 个插件统一审计通过，关键 P1 为 0，试点指南完成，至少 3 个脱敏试点场景完成，验证脚本通过且无真实资料或密钥。
+
+详细路线见 `audit/v1-roadmap.md`。
+
 ## 当前阶段：Employment Acceptance
 
 - `cn-employment-legal` 已完成 MVP，并新增虚构端到端 acceptance。
