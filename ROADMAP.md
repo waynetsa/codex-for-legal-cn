@@ -1,5 +1,18 @@
 # Roadmap
 
+## 下一阶段：受控脱敏试点
+
+v1 readiness 修复后，下一阶段不是新增插件，也不是直接发布 v1.0，而是准备 1 到 3 个虚构或严格脱敏试点包，选择少量律师进行受控试点。
+
+试点前置材料：
+
+- [私有试点指南](docs/private-pilot-guide.md)
+- [数据处理与样例脱敏指南](docs/data-handling-and-anonymization-guide.md)
+- [公开仓库与私有部署边界](docs/public-vs-private-deployment-boundary.md)
+- [试点反馈表](docs/pilot-feedback-form.md)
+
+v1.0 前仍不得接入真实 MCP、真实生产系统或真实客户资料。v1.0 发布条件应以试点反馈、P2 收敛、安全边界复核和私有化部署边界完成为准。
+
 ## v1.0 路线摘要
 
 `v0.6.0-alpha` 之后，路线重点从新增插件转为可控试点 readiness。`v1.0` 应定义为“可控试点版本”，而不是“更多插件版本”。

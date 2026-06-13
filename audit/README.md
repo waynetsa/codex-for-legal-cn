@@ -1,5 +1,19 @@
 # Repository Audit for v1.0 Readiness
 
+## v1 readiness 修复后状态
+
+本目录已补充 v1 readiness 修复结果。下一步建议进入“受控脱敏试点候选状态”，而不是生产部署或 v1.0 发布。
+
+试点前必须先阅读：
+
+- [私有试点指南](../docs/private-pilot-guide.md)
+- [数据处理与样例脱敏指南](../docs/data-handling-and-anonymization-guide.md)
+- [公开仓库与私有部署边界](../docs/public-vs-private-deployment-boundary.md)
+- [试点反馈表](../docs/pilot-feedback-form.md)
+- [v1 readiness review](v1-readiness-review.md)
+
+当前阶段仍禁止真实客户资料进入公开仓库，禁止接入真实 MCP、真实律所系统、监管数据库、文档系统、合同系统、案件系统或法研数据库。所有输出仍为“律师审阅用草稿”，不构成法律意见。
+
 本目录用于记录 `v0.6.0-alpha` 之后的整体仓库审计和 `v1.0` 路线规划。
 
 审计目标不是发布正式法律产品，而是判断本项目是否具备进入真实律所“脱敏、受控、律师复核”试点的条件。项目定位保持不变：不提供法律意见，只产出“律师审阅用草稿”。

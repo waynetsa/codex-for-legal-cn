@@ -1,5 +1,11 @@
 # Evaluation Guide
 
+## v1 readiness 试点评测
+
+v1 前评测应从 acceptance 扩展到受控脱敏试点。试点律师或负责人应使用 [试点反馈表](pilot-feedback-form.md) 记录插件、skill、材料类型、节省时间、可用性评分、风险识别评分、漏报、误报、编辑量、保密问题和 go/no-go 建议。
+
+试点评测不得使用未授权真实客户资料，也不得将真实客户资料、真实案件材料、真实合同、真实个人信息或真实监管材料写入公开仓库。
+
 ## v1.0 前统一审计
 
 `v0.6.0-alpha` 之后，评测重点从单个插件 acceptance 转为整体仓库 readiness。统一审计入口见 `audit/`，其中 `audit/issue-backlog.md` 记录 P0/P1/P2/P3，`audit/acceptance-coverage-audit.md` 记录 8 条路径覆盖情况，`audit/pilot-readiness-checklist.md` 记录进入真实律所脱敏试点前的最低要求。
