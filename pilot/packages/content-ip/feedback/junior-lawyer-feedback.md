@@ -29,3 +29,9 @@
 - risk_identification_score: 4
 - editing_required_level: low
 - go_no_go_recommendation: go
+
+## v1 preflight 修复后状态
+
+- P2 状态列：已修复，投诉/函件提纲增加文件状态、平台动作状态和律师复核字段。
+- P3 样例字段：已缓解，相似点和差异点样例保留为真实脱敏试点后的优化项。
+- 结论：go，仅限受控脱敏试点；不代表可直接对平台提交投诉。

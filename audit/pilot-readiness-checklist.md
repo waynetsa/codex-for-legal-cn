@@ -1,5 +1,9 @@
 # Pilot Readiness Checklist
 
+## v1 preflight 后状态
+
+受控虚构试点已完成，preflight 字段修复已完成。项目达到 v1.0 release candidate，但真实律所试点前仍必须完成授权、脱敏、私有环境、权限控制、日志审计、律师培训、输出复核规则和停止条件。
+
 ## v1 readiness 修复后补充
 
 本清单现在应与以下文档配套使用：

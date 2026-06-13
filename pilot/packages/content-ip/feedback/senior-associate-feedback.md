@@ -29,3 +29,9 @@
 - risk_identification_score: 4
 - editing_required_level: medium
 - go_no_go_recommendation: go
+
+## v1 preflight 修复后状态
+
+- P2 证据状态：已修复，证据保全清单补充证据编号、文件状态、责任人角色和平台动作状态。
+- P3 表格体验：已缓解，后续真实脱敏试点可继续增加操作负责人和完成状态。
+- 结论：go，仅限受控脱敏试点；不得使用真实个人账号或真实个人信息制作公开样例。

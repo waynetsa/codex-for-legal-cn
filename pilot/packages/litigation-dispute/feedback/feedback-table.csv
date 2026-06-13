@@ -2,3 +2,4 @@ pilot_id,package,plugin,skill,evaluator_role,output_usability_score,risk_identif
 PILOT-LD-001,litigation-dispute,cn-litigation-legal,matter-intake,partner,4,5,medium,none,none,no,add client expectation field,none,go,good risk boundary
 PILOT-LD-001,litigation-dispute,cn-litigation-legal,evidence-index,senior-associate,4,4,medium,none,none,no,add evidence source and custodian fields,none,go,useful for case prep
 PILOT-LD-001,litigation-dispute,cn-litigation-legal,chronology-builder,junior-lawyer,4,4,low,none,none,no,add next-evidence column,none,go,easy to follow
+PILOT-LD-001,litigation-dispute,cn-litigation-legal,v1-preflight-status,partner,5,5,low,none,none,no,evidence and issue status fields added,none,go,go only for controlled anonymized pilot not production

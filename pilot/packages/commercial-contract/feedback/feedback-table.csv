@@ -2,3 +2,4 @@ pilot_id,package,plugin,skill,evaluator_role,output_usability_score,risk_identif
 PILOT-CC-001,commercial-contract,cn-commercial-legal,contract-review,partner,4,5,medium,none,renewal risk depends on business intent,no,add clause number column,add negotiation language examples,go,good for controlled anonymized pilot
 PILOT-CC-001,commercial-contract,cn-commercial-legal,deviation-memo,senior-associate,4,4,medium,none,some risk depends on bargaining power,no,add redline-ready wording,none,go,useful internal memo
 PILOT-CC-001,commercial-contract,cn-commercial-legal,renewal-risk-check,junior-lawyer,5,4,low,none,none,no,add reminder owner field,none,go,easy to edit
+PILOT-CC-001,commercial-contract,cn-commercial-legal,v1-preflight-status,partner,5,5,low,none,none,no,field supplements added,none,go,go only for controlled anonymized pilot not production

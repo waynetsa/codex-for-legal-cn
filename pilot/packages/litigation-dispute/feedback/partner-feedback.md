@@ -29,3 +29,9 @@
 - risk_identification_score: 5
 - editing_required_level: medium
 - go_no_go_recommendation: go
+
+## v1 preflight 修复后状态
+
+- P2 字段细化：已修复，诉讼输出已补 `issue_id`、`evidence_status`、`responsible_role`、`deadline_or_timing`、`next_action_status`。
+- P3 风格问题：已缓解，已强调不得替代正式诉讼策略或代理意见。
+- 结论：go，仅限受控脱敏试点；不是 production-go，不接真实案件系统。

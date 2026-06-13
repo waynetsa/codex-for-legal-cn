@@ -29,3 +29,9 @@
 - risk_identification_score: 4
 - editing_required_level: medium
 - go_no_go_recommendation: conditional-go
+
+## v1 preflight 修复后状态
+
+- P2 权属字段：已修复，IP 输出补充 `rights_item_id`、`document_status`、`responsible_role`、`platform_action_status`、`lawyer_review_required`。
+- P3 风格问题：已缓解，继续强调不作最终侵权结论，不得直接投诉或发函。
+- 结论：go，仅限受控脱敏试点；不是 production-go，真实平台动作仍需律师和客户负责人复核。

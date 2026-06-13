@@ -1,5 +1,11 @@
 # v1 Readiness Review
 
+## v1 preflight 修复后结论
+
+受控虚构试点和 v1 preflight 修复已完成。P0 为 0，P1 为 0，P2 已清零，P3 保留为 v1 后体验优化。项目达到 v1.0 release candidate，但仍需人工确认 release notes、tag 和 GitHub Release。
+
+该结论不等于生产部署，不等于允许真实客户资料进入公开仓库，不等于允许接入真实 MCP 或生产系统。
+
 ## 受控虚构试点模拟结果
 
 本轮新增 `pilot/` 目录，使用完全虚构材料完成 3 个试点包：
