@@ -6,6 +6,14 @@ v1 前评测应从 acceptance 扩展到受控脱敏试点。试点律师或负�
 
 试点评测不得使用未授权真实客户资料，也不得将真实客户资料、真实案件材料、真实合同、真实个人信息或真实监管材料写入公开仓库。
 
+## 读取 pilot feedback
+
+虚构试点评测入口为 [../pilot/pilot-feedback-summary.md](../pilot/pilot-feedback-summary.md)。每个试点包均包含 3 类模拟律师反馈和 `feedback-table.csv`。读取顺序建议为：
+
+1. 先读 `pilot/README.md` 和 `pilot/pilot-plan.md`。
+2. 再读各试点包 input 与 output。
+3. 最后读 `feedback/` 和 `pilot/v1-go-no-go-assessment.md`。
+
 ## v1.0 前统一审计
 
 `v0.6.0-alpha` 之后，评测重点从单个插件 acceptance 转为整体仓库 readiness。统一审计入口见 `audit/`，其中 `audit/issue-backlog.md` 记录 P0/P1/P2/P3，`audit/acceptance-coverage-audit.md` 记录 8 条路径覆盖情况，`audit/pilot-readiness-checklist.md` 记录进入真实律所脱敏试点前的最低要求。

@@ -1,5 +1,15 @@
 # v1 Readiness Review
 
+## 受控虚构试点模拟结果
+
+本轮新增 `pilot/` 目录，使用完全虚构材料完成 3 个试点包：
+
+- commercial-contract
+- litigation-dispute
+- content-ip
+
+模拟律师平均可用性评分为 4.1，平均风险识别评分为 4.2。P0 为 0，P1 为 0。结论为 `conditional-go`：可以准备真实律所受控脱敏试点，但尚不建议发布 v1.0，不得接入真实 MCP，不得使用未脱敏真实客户资料。
+
 ## 本轮修复范围
 
 本轮根据 `audit/issue-backlog.md` 完成 v1 readiness 文档和边界加固：

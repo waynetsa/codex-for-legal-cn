@@ -1,0 +1,4 @@
+pilot_id,package,plugin,skill,evaluator_role,output_usability_score,risk_identification_score,editing_required_level,missed_issue_notes,false_positive_notes,confidentiality_issue_found,suggested_template_fix,suggested_skill_fix,go_no_go_recommendation,comments
+PILOT-IP-001,content-ip,cn-ip-legal,rights-chain-review,partner,4,4,medium,none,similarity requires legal review,no,add business decision table,none,conditional-go,good but needs lawyer review before action
+PILOT-IP-001,content-ip,cn-ip-legal,evidence-preservation-checklist,senior-associate,4,4,medium,none,none,no,add owner and deadline fields,none,go,useful preservation checklist
+PILOT-IP-001,content-ip,cn-ip-legal,infringement-triage,junior-lawyer,4,4,low,none,none,no,add status field,none,go,clear sequence
