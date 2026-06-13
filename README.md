@@ -164,3 +164,12 @@ python scripts/validate_no_private_materials.py
 `cn-ai-governance-legal` 已从 scaffold 升级为第二阶段第二个 MVP 插件，用于律所内部 AI 使用治理和企业客户 AI 工具、AI 项目、AI 供应商、AI 使用场景治理。当前能力包括 AI 使用制度草稿、AI 工具准入、AI 风险评估、AI 供应商合同审查和 AI 治理差距检查。
 
 该插件已完成虚构端到端验收和 alpha 修复，回归记录见 [acceptance/ai-governance/summary/ai-governance-regression-after-alpha-fixes.md](acceptance/ai-governance/summary/ai-governance-regression-after-alpha-fixes.md)。当前状态为 `v0.3.0-alpha` 候选：P0 为 0，P1 已清零，剩余 P2 为可接受体验优化项。`cn-privacy-legal`、`cn-employment-legal`、`cn-regulatory-legal` 仍为 scaffold。
+# cn-employment-legal v0.5.0-alpha 候选状态
+
+`cn-employment-legal` 已完成 MVP、虚构端到端 acceptance 和 alpha 修复回归，当前达到 `v0.5.0-alpha` 候选状态。回归记录见 `acceptance/employment/summary/employment-regression-after-alpha-fixes.md`。
+
+当前状态：
+
+- `cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`、`cn-privacy-legal`：alpha 可试用。
+- `cn-employment-legal`：MVP + acceptance + alpha fix candidate。
+- `cn-regulatory-legal`：scaffold。
