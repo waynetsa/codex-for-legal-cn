@@ -1,0 +1,40 @@
+# cn-employment-legal 验收发现
+
+> 律师审阅用草稿；本文件仅基于虚构验收样例，不构成法律意见。
+
+## 通过项
+
+- 完成 cold-start 到 7 个 employment MVP skills 的端到端输出。
+- 所有输出均标注“律师审阅用草稿”“本材料基于虚构验收样例生成”“不构成法律意见”。
+- 能识别劳动合同、员工手册、解除风险、竞业限制、外包派遣、内部调查和劳动争议证据整理的核心风险。
+- 民主程序、公示送达、特殊保护情形、经济补偿或赔偿、期限和程序均标注“待律师核验”。
+- 未直接生成正式解除通知、正式员工手册、正式调查结论、正式仲裁申请或答辩意见。
+- 红旗风险包括客户名单外发、解除程序叠加、混同管理和系统日志取证，均进入升级事项。
+
+## 失败项
+
+- 未发现阻碍试用的 P0 问题。
+
+## 需要修 skill 的问题
+
+- `termination-risk-triage`：补偿或赔偿风险字段仍偏概括，后续可增加“测算材料、口径、待客户决策”字段。
+- `workplace-investigation-plan`：访谈提纲可更细分为开放问题、封闭确认、证据确认和风险告知。
+
+## 需要修 template 的问题
+
+- `employment-contract-review-memo.md`：建议增加“客户可读摘要”区域。
+- `labor-dispute-evidence-pack.md`：建议增加“按争点分组证据表”，减少律师二次整理成本。
+- 部分表格较宽，后续可拆分为核心表、升级事项表和待补材料表。
+
+## 需要修 reference 的问题
+
+- `termination-risk-triage-checklist.md` 后续可增加裁员、待岗、调岗降薪的独立问题清单。
+- `workplace-investigation-checklist.md` 后续可增加访谈顺序和电子数据保全提示。
+
+## 是否达到 MVP acceptance 标准
+
+达到。`cn-employment-legal` MVP 能用虚构材料完成主要劳动用工路径输出，且安全边界清楚。
+
+## 是否建议进入下一轮 alpha 修复
+
+建议。P0 为 0，P1 为 3，P2 为 3。建议先做 employment alpha 修复，再考虑发布 `v0.5.0-alpha`。
