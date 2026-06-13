@@ -6,6 +6,7 @@
 
 - `regulatory-change-impact-brief.md`
 - `compliance-obligation-map.csv`
+- `compliance-obligation-map.md`
 - `regulatory-inquiry-response-outline.md`
 - `administrative-penalty-risk-triage.md`
 - `remediation-plan.md`

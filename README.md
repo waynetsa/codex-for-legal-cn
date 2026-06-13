@@ -189,3 +189,9 @@ python scripts/validate_no_private_materials.py
 `cn-regulatory-legal` 已完成 MVP，本轮新增虚构监管问询和整改端到端验收包。入口见 `acceptance/regulatory/`，包括虚构输入材料、律师审阅用草稿输出、评测表、验收发现、总结和 improvement backlog。
 
 当前不建议直接发布 `v0.6.0-alpha`；下一步应先根据 regulatory backlog 做 alpha 修复。
+
+## cn-regulatory-legal v0.6.0-alpha 候选状态
+
+`cn-regulatory-legal` 已完成 MVP、虚构端到端 acceptance 和 alpha 修复回归。回归记录见 `acceptance/regulatory/summary/regulatory-regression-after-alpha-fixes.md`。当前 P0 为 0，P1 已清零，剩余 P2 为不影响 alpha 试用的体验优化项。若主线验证通过，可作为 `v0.6.0-alpha` 候选发布。
+
+当前状态：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`、`cn-privacy-legal`、`cn-employment-legal`、`cn-regulatory-legal` 均达到 alpha 可试用候选状态。项目仍只生成“律师审阅用草稿”，不提供法律意见，不接入真实 MCP 或真实监管数据库。

@@ -223,3 +223,14 @@ Regulatory 验收结果位于：
 - `acceptance/regulatory/summary/regulatory-improvement-backlog.md`
 
 评审时重点确认 P0 是否为 0、P1 是否可控、是否仍保持“律师审阅用草稿”和“待律师核验”的安全边界。
+
+## 读取 Regulatory Regression 结果
+
+Regulatory 插件的 alpha 修复回归结果位于 `acceptance/regulatory/summary/regulatory-regression-after-alpha-fixes.md`。评审时重点确认：
+
+- P0 是否为 0。
+- P1 是否清零。
+- 剩余 P2 是否仅为宽表、阅读体验或后续拆分模块的可接受优化项。
+- 监管动态、义务清单、监管问询、行政处罚风险初筛、整改计划和管理层简报是否均体现修复后的短表、来源核验、安全闸门和升级事项。
+- 所有法律依据、监管口径、程序期限和处罚风险是否仍标注“待律师核验”。
+- 是否未出现真实客户、真实监管材料、真实处罚决定、真实整改报告、密钥或连接器配置。

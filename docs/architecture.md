@@ -116,3 +116,12 @@ Connectors 是未来私有部署中的 MCP 接入层，负责在授权范围内�
 ## Regulatory Acceptance 状态
 
 `cn-regulatory-legal` 当前状态为 MVP + acceptance under review。七个既有插件保持 alpha 可试用；regulatory 尚需根据 acceptance backlog 完成 alpha 修复后，再考虑发布。
+
+## 插件状态更新：v0.6.0-alpha 候选
+
+当前架构状态：
+
+- `cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`、`cn-privacy-legal`、`cn-employment-legal`：alpha 可试用。
+- `cn-regulatory-legal`：MVP + acceptance + alpha fix candidate。
+
+`cn-regulatory-legal` 已完成虚构端到端 acceptance 和 alpha 修复回归，回归记录位于 `acceptance/regulatory/summary/regulatory-regression-after-alpha-fixes.md`。整体架构仍不接入真实 MCP 或真实监管数据库，公开仓库不得包含真实客户资料、真实监管材料或私有配置。

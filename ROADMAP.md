@@ -157,3 +157,16 @@
 ## Regulatory Acceptance 后状态
 
 `cn-regulatory-legal` 已完成 MVP，并新增虚构监管问询和整改端到端 acceptance。下一步根据 `acceptance/regulatory/summary/regulatory-improvement-backlog.md` 判断是否先做 alpha 修复；当前建议先修复 P1/P2，再考虑发布 `v0.6.0-alpha`。
+
+## v0.6.0-alpha 候选条件
+
+`cn-regulatory-legal` 的发布候选条件为：
+
+- PR #19 regulatory acceptance 已进入 main。
+- regulatory alpha 修复 PR 已进入 main。
+- `validate_structure.py`、`validate_skill_metadata.py`、`validate_plugin_manifests.py`、`validate_no_private_materials.py` 全部通过。
+- P0 为 0，P1 清零，剩余 P2 仅为不影响 alpha 试用的体验优化项。
+- `acceptance/regulatory/summary/regulatory-regression-after-alpha-fixes.md` 记录回归结果。
+- 文档明确说明 8 个插件均达到 alpha 可试用状态。
+
+满足以上条件后，可发布 `v0.6.0-alpha`。下一阶段不再新增法律插件，应先做整体仓库审计和 v1.0 路线规划。
