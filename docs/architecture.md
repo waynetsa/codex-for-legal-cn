@@ -1,5 +1,13 @@
 # Architecture
 
+## 当前插件成熟度
+
+- Alpha 可试用：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`、`cn-privacy-legal`。
+- MVP 待验收：`cn-employment-legal`。
+- Scaffold：`cn-regulatory-legal`。
+
+整体仍遵循：`plugin -> skill -> practice profile -> templates/references -> guardrails -> evals -> optional connectors`。`cn-employment-legal` 本轮只补 MVP 工作流，不接入真实 MCP，不做端到端验收。
+
 ## 当前插件成熟度状态
 
 - Alpha 可试用：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`。

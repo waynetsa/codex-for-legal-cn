@@ -1,5 +1,13 @@
 # Codex for Legal CN
 
+## cn-employment-legal MVP 状态
+
+`cn-employment-legal` 已从 scaffold 升级为第二阶段第四个 MVP 插件，面向中国大陆劳动用工法律服务场景。当前能力覆盖劳动合同审查、员工手册审阅、解除和用工调整风险初筛、竞业限制审查、外包派遣和灵活用工风险梳理、内部调查计划、劳动争议证据包整理。
+
+该插件仍只生成“律师审阅用草稿”，不提供法律意见，不得直接作为正式解除通知、裁员方案、员工手册、仲裁申请、答辩意见或调查结论使用。后续端到端验收计划见 [acceptance/employment/](acceptance/employment/)。
+
+当前状态：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`、`cn-privacy-legal` 为 alpha 可试用；`cn-employment-legal` 为 MVP 待验收；`cn-regulatory-legal` 仍为 scaffold。
+
 ## cn-privacy-legal MVP 状态
 
 `cn-privacy-legal` 已从 scaffold 升级为第二阶段第三个 MVP 插件，面向中国律所和企业客户的个人信息保护与数据合规工作流。当前能力包括个人信息处理活动梳理、隐私政策审阅、数据处理协议审查、个人信息保护影响评估、数据出境初筛和用户个人信息请求响应流程。

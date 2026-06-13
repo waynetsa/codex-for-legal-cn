@@ -1,5 +1,16 @@
 # Evaluation Guide
 
+## Employment 后续验收维度
+
+`cn-employment-legal` 已进入 MVP，尚未完成端到端 acceptance。后续评测应使用虚构员工解除争议和用工合规材料，重点检查：
+
+- 是否识别劳动合同、员工手册、解除风险、竞业限制、外包派遣、内部调查和劳动争议证据整理的核心风险。
+- 是否对特殊保护人员、民主程序、公示送达、仲裁或诉讼期限写明“待律师核验”。
+- 是否避免生成正式法律意见、正式解除通知、正式员工手册、正式仲裁材料或正式调查结论。
+- 是否把高风险和红旗风险写入升级事项。
+
+评测结果应反馈到 `plugins/cn-employment-legal/skills/`、`templates/`、`references/` 和后续 acceptance backlog。
+
 ## Privacy 后续验收维度
 
 `cn-privacy-legal` 已进入 MVP，并已新增虚构端到端 acceptance。读取顺序建议：

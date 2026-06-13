@@ -1,5 +1,13 @@
 # Roadmap
 
+## 当前阶段：Employment MVP
+
+- 已发布：`v0.4.0-alpha`，六个插件达到 alpha 可试用：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`、`cn-privacy-legal`。
+- 本轮新增：`cn-employment-legal` 从 scaffold 升级为 MVP，覆盖劳动合同审查、员工手册审阅、解除风险初筛、竞业限制、外包派遣、内部调查和劳动争议证据整理。
+- 仍为 scaffold：`cn-regulatory-legal`。
+
+下一步应为 `cn-employment-legal` 增加虚构员工解除争议和用工合规端到端验收包；不要马上开发 `cn-regulatory-legal`。
+
 ## 当前阶段：Privacy MVP
 
 - 已完成：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal` alpha 可试用。

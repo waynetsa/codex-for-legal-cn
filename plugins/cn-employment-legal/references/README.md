@@ -1,12 +1,20 @@
-# References
+# cn-employment-legal References
 
-> 律师审阅用草稿。`cn-employment-legal` 当前仅为第二阶段 scaffold，不代表 alpha 可试用。
+本目录提供中国大陆劳动用工语境下的流程提醒和检查清单。所有内容仅用于生成“律师审阅用草稿”，不构成法律意见，不虚构具体法条编号、案例名称、仲裁委或法院观点。
 
-本目录用于后续存放 `中国劳动用工法律工作流` 的 references。当前只保留占位说明，避免在 scaffold 阶段过早写入未经验证的业务细节。
+## 文件清单
 
-## 后续补充方向
+- `china-employment-workflow-checklist.md`：劳动用工通用流程清单。
+- `employment-contract-review-checklist.md`：劳动合同审查清单。
+- `employee-handbook-review-checklist.md`：员工手册审阅清单。
+- `termination-risk-triage-checklist.md`：解除、终止、调岗降薪和裁员风险初筛清单。
+- `non-compete-review-checklist.md`：竞业限制和保密义务清单。
+- `outsourcing-dispatch-risk-checklist.md`：外包、派遣、灵活用工和平台用工清单。
+- `workplace-investigation-checklist.md`：内部调查流程清单。
+- `labor-dispute-evidence-checklist.md`：劳动争议证据整理清单。
 
-- 围绕以下事项逐步补充：劳动合同、员工手册、解除与裁员、竞业限制、外包用工、内部调查、劳动争议材料整理。
-- 所有内容必须使用虚构或脱敏样例。
-- 法律依据、监管规则、案例和官方口径必须由律师核验。
-- 不得提交真实客户资料、个人信息、商业秘密、密钥或私有系统配置。
+## 使用规则
+
+- 具体法律依据、地方规则、仲裁或法院观点均写“待律师核验”。
+- 不得把劳动关系、解除合法性、竞业有效性或员工违纪责任写成确定性结论。
+- 真实员工材料必须脱敏或在私有环境处理。
