@@ -1,5 +1,12 @@
 # Roadmap
 
+## 当前阶段：Employment Acceptance
+
+- `cn-employment-legal` 已完成 MVP，并新增虚构端到端 acceptance。
+- 本轮新增：`acceptance/employment/`，覆盖虚构员工解除争议和用工合规试跑材料、输出、评测、findings、summary 和 backlog。
+- 当前结论：P0 为 0，P1 为 3，P2 为 3。建议先做 employment alpha 修复，再判断是否发布 `v0.5.0-alpha`。
+- `cn-regulatory-legal` 仍为 scaffold，不建议马上开发。
+
 ## 当前阶段：Employment MVP
 
 - 已发布：`v0.4.0-alpha`，六个插件达到 alpha 可试用：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`、`cn-privacy-legal`。

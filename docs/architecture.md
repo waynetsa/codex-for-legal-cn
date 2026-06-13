@@ -1,5 +1,11 @@
 # Architecture
 
+## Employment 状态更新
+
+`cn-employment-legal` 当前状态为 MVP + acceptance under review。它已具备劳动合同、员工手册、解除风险、竞业限制、外包派遣、内部调查和劳动争议证据包的 MVP 工作流，并已完成虚构端到端验收。下一步是根据 `acceptance/employment/summary/employment-improvement-backlog.md` 做 alpha 修复。
+
+`cn-regulatory-legal` 仍为 scaffold。本轮未接入真实 MCP，未处理真实员工或真实企业材料。
+
 ## 当前插件成熟度
 
 - Alpha 可试用：`cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`、`cn-privacy-legal`。

@@ -1,5 +1,16 @@
 # Evaluation Guide
 
+## Employment acceptance 结果读取
+
+`cn-employment-legal` 的虚构端到端验收结果位于 `acceptance/employment/`：
+
+- `eval/employment-eval-sheet.csv`：逐维度评分。
+- `eval/employment-findings.md`：通过项、失败项和需修复问题。
+- `summary/employment-e2e-summary.md`：总体验收结论。
+- `summary/employment-improvement-backlog.md`：P0/P1/P2 改进项。
+
+当前结论是 P0 为 0，P1 为 3，P2 为 3。下一轮应先修 employment backlog，再判断是否发布 `v0.5.0-alpha`。
+
 ## Employment 后续验收维度
 
 `cn-employment-legal` 已进入 MVP，尚未完成端到端 acceptance。后续评测应使用虚构员工解除争议和用工合规材料，重点检查：

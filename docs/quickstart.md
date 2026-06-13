@@ -1,5 +1,19 @@
 # Quickstart
 
+## 使用虚构 employment 样例试跑
+
+`cn-employment-legal` 已新增端到端验收入口：`acceptance/employment/`。普通试跑建议按以下顺序阅读：
+
+1. `input/fictional-employment-practice-profile.md`
+2. `input/fictional-employee-termination-fact-pack.md`
+3. `input/fictional-employee-handbook-summary.md`
+4. `input/fictional-non-compete-and-outsourcing-summary.md`
+5. `output/` 下各技能输出
+6. `eval/employment-findings.md`
+7. `summary/employment-improvement-backlog.md`
+
+所有材料均为虚构样例，输出均为“律师审阅用草稿”，不得作为正式解除通知、员工手册、调查结论、仲裁申请或答辩意见。
+
 ## cn-employment-legal MVP 试用提示
 
 `cn-employment-legal` 已进入 MVP，但尚未完成端到端 acceptance。试用时只应使用虚构或脱敏材料，不得放入真实员工姓名、身份证件、手机号、工资、社保、公积金、绩效、病假、孕产、工伤、投诉举报、内部调查、仲裁或诉讼材料。

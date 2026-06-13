@@ -1,5 +1,11 @@
 # Codex for Legal CN
 
+## cn-employment-legal 端到端验收
+
+`cn-employment-legal` MVP 已新增虚构端到端验收包，入口见 [acceptance/employment/](acceptance/employment/)。本轮验收覆盖虚构员工解除争议、劳动合同审查、员工手册审阅、解除风险初筛、竞业限制、外包派遣、内部调查和劳动争议证据包。
+
+验收结论：MVP 达到 acceptance 标准，P0 为 0，P1 为 3，P2 为 3。当前不建议立即发布 `v0.5.0-alpha`，建议先根据 employment backlog 做 alpha 修复。`cn-regulatory-legal` 仍为 scaffold。
+
 ## cn-employment-legal MVP 状态
 
 `cn-employment-legal` 已从 scaffold 升级为第二阶段第四个 MVP 插件，面向中国大陆劳动用工法律服务场景。当前能力覆盖劳动合同审查、员工手册审阅、解除和用工调整风险初筛、竞业限制审查、外包派遣和灵活用工风险梳理、内部调查计划、劳动争议证据包整理。
