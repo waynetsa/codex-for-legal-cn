@@ -1,5 +1,11 @@
 # v1 Preflight Report
 
+## Post-release QA 引用
+
+`v1.0.0` 发布后 QA 已补充在 [post-release/](../post-release/) 中。该轮使用模拟严格脱敏后的虚构合成材料覆盖 corporate、AI governance、privacy、employment、regulatory 复合场景，结论为 P0：0，P1：0，可进入真实律所受控脱敏试点。
+
+post-release QA 不改变本报告的安全边界：公开仓库不得放真实客户资料，当前不接真实 MCP，不接生产系统，输出仍为律师审阅用草稿。
+
 ## 本轮 preflight 修复范围
 
 本轮在 PR #23 合并后进行，范围限定为 pilot feedback 的轻量修复、试点输出字段增强、反馈状态追踪、文档收口和 v1.0 release candidate 判断。

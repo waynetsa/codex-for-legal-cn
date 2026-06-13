@@ -1,0 +1,4 @@
+pilot_id,package,plugin,skill,evaluator_role,output_usability_score,risk_identification_score,editing_required_level,missed_issue_notes,false_positive_notes,confidentiality_issue_found,suggested_template_fix,suggested_skill_fix,go_no_go_recommendation,comments
+PRQA-AIP-01,privacy-ai-governance,cn-ai-governance-legal,ai-tool-intake,partner,4,5,medium,未见重大漏报,私有化部署场景可降级,false,补供应商训练使用字段,无,go,适合真实脱敏试点
+PRQA-AIP-01,privacy-ai-governance,cn-privacy-legal,data-transfer-triage,senior-associate,4,4,medium,可补日志删除字段,本地部署时境外风险可降级,false,补日志和删除字段,无,go,跨插件衔接清楚
+PRQA-AIP-01,privacy-ai-governance,cn-privacy-legal,privacy-impact-assessment,junior-lawyer,4,4,low,未见明显漏报,无,false,无,无,go,容易搭框架

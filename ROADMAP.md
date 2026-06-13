@@ -1,5 +1,11 @@
 # Roadmap
 
+## 当前阶段：v1.0.0 post-release QA
+
+`v1.0.0` 已发布，发布后 QA 已新增 [post-release/](post-release/) 目录。本轮补充 3 个模拟严格脱敏风格的虚构复合试点包，覆盖 corporate、AI governance、privacy、employment、regulatory 五条此前未在 v1 preflight 中重点组合试跑的路径。
+
+当前结论：P0 为 0，P1 为 0，可进入真实律所受控脱敏试点。下一步不是新增插件，也不是接入真实 MCP，而是在授权私有环境中使用严格脱敏材料收集真实律师反馈；如有必要，再开 `v1.0.x` 修复 PR。
+
 ## 当前阶段：v1.0 release candidate
 
 受控虚构试点已完成，v1 preflight 修复已完成。下一步不是继续开发插件，而是人工确认 release notes、人工确认是否创建 `v1.0.0` tag 和 GitHub Release。

@@ -1,0 +1,4 @@
+pilot_id,package,plugin,skill,evaluator_role,output_usability_score,risk_identification_score,editing_required_level,missed_issue_notes,false_positive_notes,confidentiality_issue_found,suggested_template_fix,suggested_skill_fix,go_no_go_recommendation,comments
+PRQA-CORP-01,corporate-diligence,cn-corporate-legal,diligence-tabular-review,partner,4,5,medium,未见重大漏报,社保风险需结合地方口径,false,增加资料室编号字段,无,go,适合真实脱敏试点
+PRQA-CORP-01,corporate-diligence,cn-corporate-legal,issue-extraction,senior-associate,4,4,medium,可增加税务专项页,部分风险可见原件后降级,false,增加资料室编号字段,无,go,适合作为工作底稿
+PRQA-CORP-01,corporate-diligence,cn-corporate-legal,closing-checklist,junior-lawyer,4,4,low,未见明显漏报,无,false,增加文件编号,无,go,容易上手
