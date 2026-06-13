@@ -184,3 +184,13 @@ python scripts/validate_no_private_materials.py
 ```
 
 完整端到端验收入口见 `acceptance/ai-governance/`。alpha 修复后的回归结论见 `acceptance/ai-governance/summary/ai-governance-regression-after-alpha-fixes.md`。
+# Employment 插件试用路径
+
+`cn-employment-legal` 当前处于 MVP + acceptance + alpha fix candidate 状态。试用时请只使用虚构或脱敏材料，并从 `acceptance/employment/` 读取样例：
+
+1. 读取 `acceptance/employment/input/` 中的虚构员工解除争议和用工合规材料。
+2. 按 cold-start、劳动合同审查、员工手册审阅、解除风险初筛、竞业限制、外包派遣、内部调查、劳动争议证据包的顺序试跑。
+3. 对照 `acceptance/employment/output/` 查看律师审阅用草稿格式。
+4. 对照 `acceptance/employment/summary/employment-regression-after-alpha-fixes.md` 查看 alpha 修复后的回归结果。
+
+不得使用真实员工信息、工资、社保、病假、绩效、调查材料或仲裁诉讼材料。

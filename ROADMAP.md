@@ -138,3 +138,13 @@
 - 仍为 scaffold：`cn-privacy-legal`、`cn-employment-legal`、`cn-regulatory-legal`。
 
 `v0.3.0-alpha` 候选条件：PR #10 合并、AI governance 修复 PR 合并、验证脚本通过、无敏感文件、P0 为 0、P1 清零或降级为可接受 P2。下一步建议发布后优先选择 `cn-privacy-legal` 做 MVP，不要同时深挖 employment 和 regulatory。
+# v0.5.0-alpha 候选条件
+
+`cn-employment-legal` 的发布候选条件为：
+
+- PR #16 employment acceptance 已进入 main。
+- employment alpha 修复 PR 已进入 main。
+- `validate_structure.py`、`validate_skill_metadata.py`、`validate_plugin_manifests.py`、`validate_no_private_materials.py` 全部通过。
+- P0 为 0，P1 清零，剩余 P2 仅为不影响 alpha 试用的体验优化项。
+- `acceptance/employment/summary/employment-regression-after-alpha-fixes.md` 记录回归结果。
+- `cn-regulatory-legal` 仍保持 scaffold，不在本轮展开 MVP。
