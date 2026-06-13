@@ -1,7 +1,7 @@
 {
   "name": "cn-regulatory-legal",
-  "version": "0.1.0",
-  "description": "监管动态、行业合规清单、问询响应和处罚风险梳理的 Codex 骨架插件。",
+  "version": "0.2.0",
+  "description": "面向中国监管合规事项的 Codex 法律工作流插件，支持监管动态影响分析、合规义务清单、监管问询响应、行政处罚风险初筛、整改计划和管理层合规简报。",
   "author": "waynetsa",
   "license": "Apache-2.0",
   "repository": "https://github.com/waynetsa/codex-for-legal-cn",
@@ -9,21 +9,25 @@
     "codex",
     "legal",
     "china",
+    "regulatory",
+    "compliance",
     "law-firm",
-    "workflow",
-    "scaffold"
+    "workflow"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "中国监管合规法律工作流",
-    "shortDescription": "监管动态、行业合规清单、问询响应和处罚风险梳理的 Codex 骨架插件。",
-    "longDescription": "面向监管动态监测、行业合规清单、监管问询响应、行政处罚风险梳理和政策变化影响分析。本阶段仅为 scaffold，不代表 alpha 可试用。",
-    "category": "Legal Workflow / Regulatory",
+    "shortDescription": "监管动态、合规义务、监管问询、行政处罚风险、整改计划和管理层简报的律师审阅用草稿工作流。",
+    "longDescription": "面向企业客户、律所合规团队、常年法律顾问和管理层的监管合规工作流插件。输出仅为律师审阅用草稿，不提供法律意见，不接入真实监管数据库或真实 MCP。",
+    "category": "Legal Workflow / Regulatory Compliance",
     "capabilities": [
-      "cold-start interview for regulatory practice profile",
-      "regulatory workflow placeholder",
-      "policy and enforcement tracking planning"
+      "regulatory change impact brief",
+      "compliance obligation map",
+      "regulatory inquiry response outline",
+      "administrative penalty risk triage",
+      "remediation plan builder",
+      "management compliance briefing"
     ],
-    "defaultPrompt": "请使用 cn-regulatory-legal 的 cold-start-interview 技能，生成监管合规团队的 practice profile 草稿。本插件目前仅为 scaffold。"
+    "defaultPrompt": "请使用 cn-regulatory-legal 的 cold-start-interview 技能，基于虚构或脱敏信息生成监管合规团队 practice profile 草稿。所有输出必须标注律师审阅用草稿，不构成法律意见，法律依据均待律师核验。"
   }
 }

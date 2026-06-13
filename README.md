@@ -173,3 +173,13 @@ python scripts/validate_no_private_materials.py
 - `cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`、`cn-privacy-legal`：alpha 可试用。
 - `cn-employment-legal`：MVP + acceptance + alpha fix candidate。
 - `cn-regulatory-legal`：scaffold。
+# cn-regulatory-legal MVP 开发状态
+
+`cn-regulatory-legal` 已从 scaffold 升级为 MVP，成为第二阶段最后一个进入 MVP 的插件。当前已具备监管动态影响分析、合规义务清单、监管问询响应提纲、行政处罚风险初筛、整改计划和管理层合规简报工作流。
+
+当前状态：
+
+- `cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`、`cn-privacy-legal`、`cn-employment-legal`：alpha 可试用。
+- `cn-regulatory-legal`：MVP，尚未完成端到端 acceptance。
+
+后续入口：`acceptance/regulatory/`。

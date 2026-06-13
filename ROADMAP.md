@@ -148,3 +148,8 @@
 - P0 为 0，P1 清零，剩余 P2 仅为不影响 alpha 试用的体验优化项。
 - `acceptance/employment/summary/employment-regression-after-alpha-fixes.md` 记录回归结果。
 - `cn-regulatory-legal` 仍保持 scaffold，不在本轮展开 MVP。
+# cn-regulatory-legal 下一步
+
+`cn-regulatory-legal` 已进入 MVP。下一步应为该插件增加虚构监管问询和整改端到端验收包，完成 acceptance findings 和 improvement backlog 后，再决定是否进行 alpha 修复和发布 `v0.6.0-alpha`。
+
+本阶段不接入真实监管数据库，不接入真实 MCP，不使用真实客户或真实监管材料。

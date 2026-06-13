@@ -1,12 +1,14 @@
-# Evals
+# cn-regulatory-legal Evals
 
-> 律师审阅用草稿。`cn-regulatory-legal` 当前仅为第二阶段 scaffold，不代表 alpha 可试用。
+> 评测材料必须虚构或脱敏，不得使用真实客户、真实监管机关、真实处罚决定、真实问询函或真实整改材料。
 
-本目录用于后续存放 `中国监管合规法律工作流` 的 evals。当前只保留占位说明，避免在 scaffold 阶段过早写入未经验证的业务细节。
+MVP 评测应覆盖：
 
-## 后续补充方向
+- regulatory-change-impact-brief：是否能识别政策变化影响、义务和管理层关注事项。
+- compliance-obligation-map：是否能形成业务模块、监管主题、责任部门、台账和缺口清单。
+- regulatory-inquiry-response-outline：是否能生成内部响应提纲、材料清单和审批分工。
+- administrative-penalty-risk-triage：是否能整理事实、程序、证据缺口和升级事项。
+- remediation-plan-builder：是否能拆分短期止血、中期制度修复和长期治理建设。
+- management-compliance-briefing：是否适合管理层快速阅读。
 
-- 围绕以下事项逐步补充：监管动态监测、行业合规清单、监管问询响应、行政处罚风险梳理、政策变化影响分析。
-- 所有内容必须使用虚构或脱敏样例。
-- 法律依据、监管规则、案例和官方口径必须由律师核验。
-- 不得提交真实客户资料、个人信息、商业秘密、密钥或私有系统配置。
+所有输出必须标注“律师审阅用草稿”“不构成法律意见”“待律师核验”。
