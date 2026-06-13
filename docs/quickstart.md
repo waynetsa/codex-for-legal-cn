@@ -1,5 +1,9 @@
 # Quickstart
 
+## 试点前阅读
+
+在真实律所脱敏试点前，请先阅读 `audit/pilot-readiness-checklist.md`。试点必须使用虚构或脱敏材料，并由负责律师复核；不得把真实客户资料、真实案件材料、真实合同、真实个人信息或真实监管材料放入公开仓库。
+
 ## 使用虚构 employment 样例试跑
 
 `cn-employment-legal` 已新增端到端验收入口：`acceptance/employment/`。普通试跑建议按以下顺序阅读：

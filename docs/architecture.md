@@ -1,5 +1,11 @@
 # Architecture
 
+## v0.6.0-alpha 后架构边界
+
+当前仓库仍是公开法律 AI 工作流模板库，不是生产系统。8 个插件均达到 alpha 可试用状态，但不接真实 MCP，不接真实律所系统，不连接监管数据库、文档系统、合同系统、案件系统或法研数据库。
+
+下一阶段架构重点是 `v1.0` 可控试点 readiness：只读优先、本地文件夹示例、权限审计、日志留痕、matter 隔离、客户隔离和私有化部署边界。详见 `audit/mcp-readiness-audit.md` 与 `audit/v1-roadmap.md`。
+
 ## Employment 状态更新
 
 `cn-employment-legal` 当前状态为 MVP + acceptance under review。它已具备劳动合同、员工手册、解除风险、竞业限制、外包派遣、内部调查和劳动争议证据包的 MVP 工作流，并已完成虚构端到端验收。下一步是根据 `acceptance/employment/summary/employment-improvement-backlog.md` 做 alpha 修复。
