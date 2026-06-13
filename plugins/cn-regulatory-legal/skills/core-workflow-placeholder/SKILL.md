@@ -1,60 +1,52 @@
 ---
 name: core-workflow-placeholder
-description: 说明 中国监管合规法律工作流 后续 MVP 可拆分的具体 skills；当前仅为 scaffold，占位规划，不处理真实事项。
+description: 说明 cn-regulatory-legal MVP 已拆分的核心监管合规工作流，以及本技能仅作为导航占位使用。
 ---
 
 # Core Workflow Placeholder
 
 ## Purpose
 
-说明 `cn-regulatory-legal` 后续 MVP 可能拆分的具体 skills，并为第二阶段规划保留结构。本阶段只做骨架，不展开完整业务内容。所有输出均为“律师审阅用草稿”。
+为 `cn-regulatory-legal` 提供工作流导航。本插件已进入 MVP 阶段，核心能力拆分为监管动态影响分析、合规义务清单、监管问询响应、行政处罚风险初筛、整改计划和管理层合规简报。
 
 ## When to use
 
-- 规划第二阶段插件路线图时。
-- 讨论该插件是否进入 MVP 开发时。
-- 为后续模板、references、evals 设计目录边界时。
+- 用户不确定应该使用哪个 regulatory skill 时。
+- 需要了解监管合规插件的 MVP 能力边界时。
 
 ## Inputs expected
 
-- 拟处理的事项类型：监管动态监测、行业合规清单、监管问询响应、行政处罚风险梳理、政策变化影响分析。
-- 目标用户：律所团队、公司法务、知识管理、合规负责人或法律教育场景。
-- 预期输出：清单、表格、备忘录、台账或复核提纲。
+- 用户的监管合规事项描述。
+- 行业、监管主题、材料类型和期望输出。
 
 ## Workflow
 
-1. 确认当前插件仅为 scaffold，不用于真实事项处理。
-2. 根据团队 profile 判断后续优先拆分哪些具体 skills。
-3. 记录所需模板、参考清单、评测样例和 guardrails。
-4. 将具体业务能力留到后续 MVP PR 中逐项展开。
+1. 判断用户事项属于监管动态、合规义务、问询响应、处罚风险、整改计划还是管理层简报。
+2. 推荐对应技能。
+3. 提醒用户仅使用虚构或脱敏材料。
+4. 提醒所有输出均为“律师审阅用草稿”，不构成法律意见。
 
 ## Output format
 
-后续可拆分 skills 建议：
-
-- `regulatory-update-monitor`
-- `industry-compliance-checklist`
-- `regulatory-inquiry-response-outline`
-- `administrative-penalty-risk-map`
-- `policy-impact-analysis`
-
-每个后续 skill 在 MVP 阶段应补充 Purpose、When to use、Inputs expected、Workflow、Output format、Quality checks、Escalation / attorney review gate、Confidentiality notes、Limitations。
+- 推荐技能名称。
+- 适用原因。
+- 所需输入材料。
+- 安全边界和律师复核提示。
 
 ## Quality checks
 
-- 是否明确“scaffold only”。
-- 是否没有写成正式法律意见。
-- 是否没有虚构具体法规条文、案例、监管观点或法院观点。
-- 是否没有加入真实客户或真实案件材料。
+- 是否避免把本技能当作正式业务输出。
+- 是否提示不得使用真实监管材料或客户资料。
+- 是否提示法律依据和监管口径待律师核验。
 
 ## Escalation / attorney review gate
 
-本占位技能不得直接用于客户交付。任何正式使用前，必须由对应业务领域律师确认 skill、template、reference、eval 和 guardrail。
+如用户请求正式监管回复、正式整改报告、正式合规结论、处罚判断或对外公告，应停止并要求律师复核。
 
 ## Confidentiality notes
 
-只允许使用虚构、脱敏或公开可复核的材料规划插件。不得提交真实客户名、真实项目名、真实合同、真实个人信息、商业秘密或密钥。
+不得输入真实监管材料、客户经营数据、个人信息、商业秘密或私有配置。
 
 ## Limitations
 
-本文件只描述未来拆分方向，不提供可试用 MVP 能力。进入 MVP 前必须单独创建 PR，补充完整工作流、模板、评测样本和安全边界。
+本技能仅用于导航，不生成正式监管合规成果。

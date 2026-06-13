@@ -1,12 +1,14 @@
-# Templates
+# cn-regulatory-legal Templates
 
-> 律师审阅用草稿。`cn-regulatory-legal` 当前仅为第二阶段 scaffold，不代表 alpha 可试用。
+> 以下模板均为律师审阅用草稿，不得直接作为正式监管回复、正式整改报告、正式合规结论、正式对外公告或法律意见。
 
-本目录用于后续存放 `中国监管合规法律工作流` 的 templates。当前只保留占位说明，避免在 scaffold 阶段过早写入未经验证的业务细节。
+本目录包含：
 
-## 后续补充方向
+- `regulatory-change-impact-brief.md`
+- `compliance-obligation-map.csv`
+- `regulatory-inquiry-response-outline.md`
+- `administrative-penalty-risk-triage.md`
+- `remediation-plan.md`
+- `management-compliance-briefing.md`
 
-- 围绕以下事项逐步补充：监管动态监测、行业合规清单、监管问询响应、行政处罚风险梳理、政策变化影响分析。
-- 所有内容必须使用虚构或脱敏样例。
-- 法律依据、监管规则、案例和官方口径必须由律师核验。
-- 不得提交真实客户资料、个人信息、商业秘密、密钥或私有系统配置。
+使用前请确认材料为虚构或脱敏，法律依据、事实来源、期限和监管口径均待律师核验。

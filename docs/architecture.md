@@ -104,3 +104,11 @@ Connectors 是未来私有部署中的 MCP 接入层，负责在授权范围内�
 - `cn-regulatory-legal`：scaffold。
 
 所有插件仍遵守项目边界：仅生成“律师审阅用草稿”，不提供法律意见，不接入真实 MCP，不包含真实客户或员工资料。
+# 插件状态更新：Regulatory MVP
+
+当前架构状态：
+
+- `cn-commercial-legal`、`cn-corporate-legal`、`cn-litigation-legal`、`cn-ip-legal`、`cn-ai-governance-legal`、`cn-privacy-legal`、`cn-employment-legal`：alpha 可试用。
+- `cn-regulatory-legal`：MVP，尚未完成端到端 acceptance。
+
+`cn-regulatory-legal` 不接入真实 MCP 或真实监管数据库；所有输出仍为律师审阅用草稿，不构成法律意见。

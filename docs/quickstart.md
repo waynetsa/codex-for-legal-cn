@@ -194,3 +194,11 @@ python scripts/validate_no_private_materials.py
 4. 对照 `acceptance/employment/summary/employment-regression-after-alpha-fixes.md` 查看 alpha 修复后的回归结果。
 
 不得使用真实员工信息、工资、社保、病假、绩效、调查材料或仲裁诉讼材料。
+# Regulatory 插件试用提示
+
+`cn-regulatory-legal` 当前已进入 MVP，但尚未完成端到端 acceptance。试用时请只使用虚构或脱敏材料：
+
+1. 先使用 `cold-start-interview` 生成监管合规团队 practice profile 草稿。
+2. 根据事项选择监管动态影响分析、合规义务清单、监管问询响应提纲、行政处罚风险初筛、整改计划或管理层简报。
+3. 所有法律依据、监管口径、期限和事实来源均写“待律师核验”。
+4. 不得将输出直接作为正式监管回复、正式整改报告、正式对外公告或正式合规结论。
