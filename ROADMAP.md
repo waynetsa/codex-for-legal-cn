@@ -6,6 +6,8 @@
 
 当前结论：P0 为 0，P1 为 0，可进入真实律所受控脱敏试点。下一步不是新增插件，也不是接入真实 MCP，而是在授权私有环境中使用严格脱敏材料收集真实律师反馈；如有必要，再开 `v1.0.x` 修复 PR。
 
+v1.0.0 post-release QA has been completed; project development is paused pending real anonymized pilot feedback.
+
 ## 当前阶段：v1.0 release candidate
 
 受控虚构试点已完成，v1 preflight 修复已完成。下一步不是继续开发插件，而是人工确认 release notes、人工确认是否创建 `v1.0.0` tag 和 GitHub Release。

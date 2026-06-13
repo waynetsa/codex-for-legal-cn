@@ -6,6 +6,8 @@
 
 post-release QA 结论：P0 为 0，P1 为 0，未发现保密或数据风险，可进入真实律所受控脱敏试点；但项目仍不是生产系统，不接真实 MCP，不接生产系统，公开仓库不得放真实客户资料、真实案件材料、真实合同、真实个人信息、真实员工信息、真实监管材料或真实交易资料。所有输出仍仅为“律师审阅用草稿”，不构成法律意见。
 
+v1.0.0 post-release QA has been completed; project development is paused pending real anonymized pilot feedback. Current closeout status is recorded in [PROJECT_STATUS.md](PROJECT_STATUS.md).
+
 ## v1.0 release candidate
 
 受控虚构试点和 v1 preflight 修复已完成，项目达到 `v1.0.0` release candidate。该状态不等于生产部署，不等于提供法律意见，不等于允许真实客户资料进入公开仓库。
