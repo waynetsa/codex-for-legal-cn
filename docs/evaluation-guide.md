@@ -1,5 +1,17 @@
 # Evaluation Guide
 
+## v1.0.0 post-release feedback
+
+`post-release/` 记录 v1.0.0 发布后的 QA 结果。读取顺序建议为：
+
+1. [post-release pilot plan](../post-release/post-release-pilot-plan.md)
+2. [simulated anonymized pilot summary](../post-release/simulated-anonymized-pilot-summary.md)
+3. [simulated lawyer feedback summary](../post-release/simulated-lawyer-feedback-summary.md)
+4. [issue triage](../post-release/issue-triage.md)
+5. [project closeout recommendation](../post-release/project-closeout-recommendation.md)
+
+本轮结论为 P0/P1 均为 0，可进入真实律所受控脱敏试点；但该结论不等于生产可用，不允许真实客户资料进入公开仓库，也不允许当前阶段接入真实 MCP 或生产系统。
+
 ## v1 preflight 结果
 
 受控虚构试点和 preflight 修复后，P0 为 0，P1 为 0，P2 已清零，P3 保留为 v1 后体验优化。平均可用性评分为 4.1/5，平均风险识别评分为 4.2/5。

@@ -1,5 +1,18 @@
 # Quickstart
 
+## 查看 v1.0.0 发布后 QA
+
+发布后 QA 入口位于 [../post-release/README.md](../post-release/README.md)。建议按以下顺序阅读：
+
+1. `post-release/v1.0.0-release-check.md`
+2. `post-release/post-release-pilot-plan.md`
+3. `post-release/packages/` 下 3 个模拟严格脱敏风格试点包
+4. `post-release/simulated-lawyer-feedback-summary.md`
+5. `post-release/issue-triage.md`
+6. `post-release/project-closeout-recommendation.md`
+
+这些材料仍是虚构合成材料，不得替代真实律所受控脱敏试点；公开仓库仍禁止放入真实客户资料或连接真实 MCP。
+
 ## v1.0 候选材料入口
 
 如需判断是否进入 v1.0 发布，请先阅读：

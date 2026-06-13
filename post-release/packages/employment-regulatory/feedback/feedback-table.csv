@@ -1,0 +1,4 @@
+pilot_id,package,plugin,skill,evaluator_role,output_usability_score,risk_identification_score,editing_required_level,missed_issue_notes,false_positive_notes,confidentiality_issue_found,suggested_template_fix,suggested_skill_fix,go_no_go_recommendation,comments
+PRQA-ER-01,employment-regulatory,cn-employment-legal,termination-risk-triage,partner,4,5,medium,未见重大漏报,监管风险需看真实来函,false,补期限日历字段,无,go,适合真实脱敏试点
+PRQA-ER-01,employment-regulatory,cn-regulatory-legal,regulatory-inquiry-response-outline,senior-associate,4,4,medium,可补审批节点,监管问询需看真实材料,false,补审批节点字段,无,go,内部底稿可用
+PRQA-ER-01,employment-regulatory,cn-employment-legal,labor-dispute-evidence-pack,junior-lawyer,5,4,low,未见明显漏报,无,false,无,无,go,证据整理价值高

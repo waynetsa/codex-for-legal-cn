@@ -1,5 +1,11 @@
 # v1 Readiness Review
 
+## v1.0.0 发布后 QA 摘要
+
+`v1.0.0` 发布后新增 [post-release/](../post-release/) QA 包，使用模拟严格脱敏后的虚构合成材料补充并购尽调、AI 治理与隐私合规、劳动用工与监管整改 3 个复合场景。结果为 P0：0，P1：0，P2：5，P3：3；未发现保密或数据风险。
+
+该结果支持项目进入真实律所受控脱敏试点，但仍不支持生产部署、真实 MCP 接入或将真实客户资料放入公开仓库。
+
 ## v1 preflight 修复后结论
 
 受控虚构试点和 v1 preflight 修复已完成。P0 为 0，P1 为 0，P2 已清零，P3 保留为 v1 后体验优化。项目达到 v1.0 release candidate，但仍需人工确认 release notes、tag 和 GitHub Release。
