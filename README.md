@@ -17,6 +17,7 @@ Codex for Legal CN 是面向中国律师事务所、公司法务、合规团队�
 - QA：post-release QA 已完成
 - 项目节奏：项目开发暂告段落，等待真实律所受控脱敏试点反馈
 - 下一步：真实律所受控脱敏试点
+- README：已整理为面向首次访问者的项目介绍
 
 Post-release QA 结果：
 
