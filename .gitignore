@@ -23,6 +23,7 @@ Thumbs.db
 **/local/
 **/private/
 **/confidential/
+.local-sessions/
 
 # Logs and temporary files
 *.log
