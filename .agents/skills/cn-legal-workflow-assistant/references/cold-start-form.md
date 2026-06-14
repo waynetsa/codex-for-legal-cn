@@ -6,8 +6,8 @@ Use this form before any substantive workflow analysis.
 
 Ask these questions in concise Chinese. Ask no more than 8 questions at once.
 
-1. 你的团队或个人 playbook 是什么？如没有，可以写“使用默认”。
-2. 本次风险偏好是什么？稳健、平衡、激进，或自定义。
+1. 你的团队或个人 playbook 是什么？如果没有，可以写“使用默认”。
+2. 本次风险偏好是什么？稳健、平衡、积极，或自定义。
 3. 你希望输出采用什么格式？例如 Markdown 表格、备忘录、清单、项目台账。
 4. 哪些事项必须升级给合伙人、负责人、管理层或客户决策人？
 5. 本次有哪些禁止事项？例如不得出具正式法律意见、不得对外发送、不得处理未授权材料。

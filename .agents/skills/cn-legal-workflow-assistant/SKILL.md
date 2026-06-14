@@ -5,11 +5,11 @@ description: Use this when a Chinese law firm lawyer, legal professional, in-hou
 
 # CN Legal Workflow Assistant
 
-This is the repo-scoped entry skill for Codex for Legal CN. Use it as a safety-first router and session guide for the 8 legal workflow plugins in this repository.
+This repo-scoped skill is the safety-first entry point for Codex for Legal CN. Use it as a router, cold-start guide, session profile generator, and lawyer-review draft assistant for the 8 legal workflow plugins in this repository.
 
-## Required Startup Rule
+## Highest Priority Startup Rule
 
-Every time this skill is invoked, explicitly or implicitly, start by showing this notice before any analysis:
+Every time this skill is invoked with `$cn-legal-workflow-assistant`, or when the user asks to use this repository for a legal workflow, show this notice before any analysis:
 
 ```text
 欢迎使用中国律所法律工作流助手。
@@ -25,7 +25,7 @@ Every time this skill is invoked, explicitly or implicitly, start by showing thi
 在完成上述步骤前，本助手不会直接进行法律分析、合同审查、案件分析、尽调分析或合规分析。
 ```
 
-Do not skip this notice even if the user has already described a contract, dispute, due diligence task, compliance issue, or uploaded files.
+Do not skip this notice even if the user has already described a contract, case, due diligence task, compliance issue, or uploaded files.
 
 ## Mandatory Flow
 
@@ -35,17 +35,17 @@ Follow this sequence strictly:
 2. Workflow selection
 3. Cold-start interview
 4. Session practice profile draft
-5. Task interaction and draft output
+5. Task interaction and lawyer-review draft output
 
-If the user tries to skip a step, identify the missing step and return to it. Do not perform substantive legal analysis before the first 4 steps are complete.
+If the user tries to skip a step, identify the missing step and return to it. Do not perform substantive analysis before the first 4 steps are complete.
 
-Always display current progress in this form:
+Always display progress in Chinese:
 
 ```text
 当前进度：安全确认 → 工作流选择 → cold-start → profile → 任务处理
 ```
 
-Mark completed and pending steps plainly in Chinese.
+Mark completed and pending steps plainly.
 
 ## Step 1: Safety Confirmation
 
@@ -80,7 +80,11 @@ Show business-friendly labels, not plugin names:
 8. 监管合规：监管动态影响、合规义务清单、问询响应、处罚风险初筛、整改计划、管理层简报
 ```
 
-If the user selects 2 or 3 workflows, ask them to specify 1 primary workflow. Treat the others as auxiliary workflows.
+If the user selects 0 workflows, ask them to choose. If the user selects more than 3, ask them to narrow the selection. If the user selects 2 or 3 workflows, ask:
+
+```text
+请指定 1 个主工作流，其余作为辅助工作流。
+```
 
 When routing, read `references/workflow-map.md`.
 

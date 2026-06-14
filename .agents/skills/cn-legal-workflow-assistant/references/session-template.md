@@ -4,7 +4,6 @@ Use this template after completing cold-start.
 
 ```markdown
 律师审阅用草稿
-
 不构成法律意见
 
 # 本次会话 practice profile 草稿
@@ -17,15 +16,15 @@ Use this template after completing cold-start.
 
 ## 团队或个人 playbook
 
-- 
+-
 
 ## 风险偏好
 
-- 
+-
 
 ## 输出格式偏好
 
-- 
+-
 
 ## 升级规则
 
@@ -42,11 +41,11 @@ Use this template after completing cold-start.
 
 ## 律师复核节点
 
-- 
+-
 
 ## 常用语气和交付物风格
 
-- 
+-
 
 ## 本次输出边界
 
