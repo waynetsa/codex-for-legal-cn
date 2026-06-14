@@ -38,11 +38,11 @@ Post-release QA 结果：
 - 本项目不是生产系统。
 - 本项目不提供法律意见。
 - 所有输出均为律师审阅用草稿。
-- 不得把真实客户资料、真实案件材料、真实合同、真实个人信息、真实员工信息、真实监管材料、真实交易资料放入公开仓库。
+- 不得把真实客户资料、真实案件材料、真实合同、真实个人信息、真实员工信息、真实监管材料、真实交易资料、真实内部调查材料放入公开仓库。
 - 当前不接真实 MCP。
 - 当前不接生产系统。
 - 真实材料只能在授权私有环境处理，并需要权限控制、日志、审计、客户隔离、matter 隔离和律师复核。
-- 任何对外发送、提交、签署、发布或依赖的内容，必须由合格律师或负责人员复核。
+- 任何正式法律文件、意见、函件、诉讼文书、交易文件、监管回复、劳动文件、平台投诉或其他对外材料，均必须由合格法律专业人士复核后使用。
 
 ## 8 个插件一览
 
@@ -63,12 +63,12 @@ Post-release QA 结果：
 plugins/          8 个法律工作流插件
 shared/           共用 guardrails、模板、评分和升级规则
 acceptance/       虚构端到端验收包
-pilot/            v1 preflight 受控虚构试点包
+pilot/            v1 preflight 试点材料
 post-release/     v1.0.0 发布后 QA
 audit/            仓库审计、v1 readiness 和路线规划
 docs/             使用指南、安全边界、试点指南
 scripts/          验证脚本
-release-notes/    发布说明草案
+release-notes/    发布说明
 connectors/       MCP 连接器占位说明，不含真实连接器
 ```
 
@@ -89,10 +89,12 @@ python scripts/validate_no_private_materials.py
 - [Data handling and anonymization guide](docs/data-handling-and-anonymization-guide.md)
 - [Public vs private deployment boundary](docs/public-vs-private-deployment-boundary.md)
 - [Pilot feedback form](docs/pilot-feedback-form.md)
+- [Project status](PROJECT_STATUS.md)
+- [Post-release QA](post-release/)
 
-## 如何使用 cold-start interview 和 practice profile
+## cold-start interview 和 practice profile
 
-每个插件都有 `cold-start-interview` skill。它用于帮助律师团队、法务团队或合规团队梳理自己的服务对象、风险偏好、审查口径和输出习惯，并形成团队或项目专用的 practice profile 草稿。
+每个插件都有 `cold-start-interview`，用于先了解团队自己的 playbook、风险偏好、输出格式、升级规则、禁止事项和律师复核节点，再生成或指导填写 practice profile。后续 skills 会根据 profile 统一审查口径和输出风格。
 
 Practice profile 用于统一：
 
@@ -193,6 +195,7 @@ python scripts/validate_no_private_materials.py
 - 虚构样例
 - 严格脱敏样例
 - 文档改进
+- 试点反馈总结
 
 禁止提交：
 
@@ -205,6 +208,7 @@ python scripts/validate_no_private_materials.py
 - 真实交易资料
 - 密钥、token、API key、Cookie
 - 私有系统配置
+- 生产系统连接信息
 
 贡献前请阅读：
 
@@ -216,4 +220,4 @@ python scripts/validate_no_private_materials.py
 
 本项目是法律工作流模板项目，不包含法律意见，不替代律师判断，不构成律师客户关系。
 
-任何正式法律文件、法律意见、函件、诉讼文书、仲裁材料、交易文件、监管回复、劳动用工文件、隐私合规文件、AI 治理文件或其他对外材料，均必须由合格法律专业人士复核后使用。
+任何正式法律文件、意见、函件、诉讼文书、交易文件、监管回复、劳动文件、平台投诉或对外材料，均必须由合格法律专业人士复核后使用。
